@@ -1,0 +1,16 @@
+#!/bin/bash
+#FASTA exercise
+#1 Count how many lines there are in each file
+wc -l ../data/fasta/407228326.fasta ../data/fasta/407228412.fasta ../data/fasta/E.coli.fasta
+
+#2 Print everything starting from the second line for the E.coli genome
+tail -n +2 ../data/fasta/E.coli.fasta
+
+#3 Count the sequence length of this genome
+tail -n +2 ../data/fasta/E.coli.fasta | tr -d "\r\n" | wc -m
+
+#4 Count the matches of a perticular sequence, "ATGC" in the genome of E.coli
+tail -n +2 ../data/fasta/E.coli.fasta | tr -d "\r\n" | grep -o ATGC | wc -l
+
+# Computate the AT/GC ratio
+echo $(tail -n +2 ../data/fasta/E.coli.fasta | grep -oE "A|T" | wc -l)/$(tail -n +2 ../data/fasta/E.coli.fasta | grep -oE "G|C" | wc -l) | bc -l
