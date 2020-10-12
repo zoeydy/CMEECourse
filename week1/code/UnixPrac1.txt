@@ -4,7 +4,7 @@
 wc -l ../data/fasta/407228326.fasta ../data/fasta/407228412.fasta ../data/fasta/E.coli.fasta
 
 #2 Print everything starting from the second line for the E.coli genome
-tail -n +2 ../data/fasta/E.coli.fasta
+tail -n +2 ../data/fasta/E.coli.fasta | head -n 1
 
 #3 Count the sequence length of this genome
 tail -n +2 ../data/fasta/E.coli.fasta | tr -d "\r\n" | wc -m
