@@ -18,28 +18,36 @@ rainfall = (('JAN',111.4),
 # (1) Use a list comprehension to create a list of month,rainfall tuples where
 # the amount of rain was greater than 100 mm.
  
-new1 = [n[0] for n in rainfall if n[1] > 100]
-print(new1)
-new1 = [n for n in rainfall if n[1] > 100]
-print(new1)
+    ##z new_month = [n[0] for n in rainfall if n[1] > 100]
+    ##z print(new_month)
+    ##z new_rainfall = [n[1] for n in rainfall if n[1] > 100]
+    ##z print(new_rainfall)
+    new_1 = [n for n in rainfall if n[1] > 100]
+    print(new_1)
 
 # (2) Use a list comprehension to create a list of just month names where the
 # amount of rain was less than 50 mm. 
 
-## wrong this chunk
-new2 = list([n for n in rainfall if n[1] < 50])
-print(new2)
+    new_2 = [n[0] for n in rainfall if n[1] < 50]
+    print(new_2)
 
 # (3) Now do (1) and (2) using conventional loops (you can choose to do 
 # this before 1 and 2 !). 
 
-## (1)
+    ##z (1)
 
-new1 = ([])
-for n in rainfall:
-    if n[1] > 100:
-        new1.append(n)
-print(new1)
+    new1 = ([])
+    for n in rainfall:
+        if n[1] > 100:
+            new1.append(n)
+    print(new1)
 
-## (2)
+    ##z (2)
 
+    new2 =([])
+    for n in rainfall:
+        if n[1] < 50:
+            new2.append(n[0])
+    print(new2)
+
+# "*#z" means the comments made by zongyi

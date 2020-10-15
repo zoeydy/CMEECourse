@@ -18,7 +18,6 @@ birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
 
 a = [n for n in species for species in birds]
 print(a)
-
 b = [n for species in birds for n in species]
 print(b)
 
