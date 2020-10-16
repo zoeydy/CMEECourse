@@ -8,7 +8,7 @@
 4. Intro to LATEX,a text file (.tex) editor with certain typesetting (tex) syntax, to 'compile' a certain type of file.
 
 ## Language
-English
+Shell
 
 ## Project structure and Usage
 Hierarchical structure, for learning on Biological Computing.
