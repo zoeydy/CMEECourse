@@ -14,4 +14,4 @@ Shell
 Hierarchical structure, for learning on Biological Computing.
 
 ## Author name and contact
-Zongyi Hu zh272@ic.ac.uk
+Zongyi Hu zh2720@ic.ac.uk
