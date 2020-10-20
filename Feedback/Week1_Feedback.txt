@@ -1,0 +1,867 @@
+Starting weekly feedback for Zongyi, Week1
+
+Current Points = 100
+
+Note that: 
+(1) Major sections begin with a double "====" line 
+(2) Subsections begin with a single "====" line 
+(3) Code output or text file content are printed within single "*****" lines 
+
+======================================================================
+======================================================================
+Your Git repo size this week is about 1.79 MiB on disk 
+
+PART 1: Checking project workflow...
+
+Found the following directories in parent directory: week2, .git, week1, Feedback
+
+Found the following files in parent directory: README.md, .gitignore
+
+Checking for key files in parent directory...
+
+Found .gitignore in parent directory, great! 
+
+Printing contents of .gitignore:
+
+**********************************************************************
+*~ 
+*.tmp
+
+*/sandbox/*
+*.docx
+*.jpeg
+
+#LaTex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.lb
+*.cb
+*.cb2
+*.fmt
+*.fot
+*.toc
+*.out
+*.fls 
+
+# BibTex/BibLaTex auxiliary files:
+*.bbl 
+*.bcf 
+*.big
+*.blx.aux 
+*.blx.bib 
+*.run.xml
+
+# Python
+__pycache__/
+
+*~ 
+*.tmp
+#--------------------R gitignore template-------------------
+# History files
+.Rhistory
+.Rapp.history
+# Session Data files
+.RData
+# User-specific files
+.Ruserdata
+# Example code in package build process
+*-Ex.R
+# Output files from R CMD build
+/*.tar.gz
+# Output files from R CMD check
+/*.Rcheck/
+# RStudio files
+.Rproj.user/
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+# R Environment Variables
+.Renviron
+# pkgdown site
+docs/
+# translation temp files
+po/*~
+
+#------------------Python gitignore template-------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# C extensions
+*.so
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+# Translations
+*.mo
+*.pot
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+# Flask stuff:
+instance/
+.webassets-cache
+# Scrapy stuff:
+.scrapy
+# Sphinx documentation
+docs/_build/
+# PyBuilder
+.pybuilder/
+target/
+# Jupyter Notebook
+.ipynb_checkpoints
+# IPython
+profile_default/
+ipython_config.py
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+# SageMath parsed files
+*.sage.py
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Spyder project settings
+.spyderproject
+.spyproject
+# Rope project settings
+.ropeproject
+# mkdocs documentation
+/site
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+# Pyre type checker
+.pyre/
+# pytype static type analyzer
+.pytype/
+# Cython debug symbols
+cython_debug/
+#-------------------------------C gitignore template-----------------------------------------
+# Prerequisites
+*.d
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+# Linker output
+*.ilk
+*.map
+*.exp
+# Precompiled Headers
+*.gch
+*.pch
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+.DS_Store
+*.save
+**********************************************************************
+
+Found README in parent directory, named: README.md
+
+Printing contents of README.md:
+
+**********************************************************************
+My CMEE Coursework Repository
+**********************************************************************
+
+======================================================================
+Looking for the weekly directories...
+
+Found 2 weekly directories: week1, week2
+
+The Week1 directory will be assessed 
+
+======================================================================
+======================================================================
+PART 2: Checking weekly code and workflow...
+
+======================================================================
+Assessing WEEK1...
+
+Found the following directories: data, code, sandbox, results
+
+Found the following files: README.md, .gitignore
+
+Checking for readme file in weekly directory...
+
+Found README in parent directory, named: README.md
+
+Printing contents of README.md:
+
+**********************************************************************
+# Week 1 -- Intro to UNIX & Linux, Shell scripting, Git and LATEX
+
+## Brief description
+
+1. Learn about the UNIX operating system, and in particular Linux with focus on Ubuntu.
+2. Learn using UNIX shell--bash shell to interface with the Operating System.
+3. version control,managing and tracking changes to computer code and data in an automated way, with Github.
+4. Intro to LATEX,a text file (.tex) editor with certain typesetting (tex) syntax, to 'compile' a certain type of file.
+
+## Language
+Shell
+
+## Project structure and Usage
+Hierarchical structure, for learning on Biological Computing.
+
+## Author name and contact
+Zongyi Hu zh2720@ic.ac.uk
+**********************************************************************
+
+Results directory is empty - good! 
+
+Found 13 code files: ConcatenateTwoFiles.sh, tiff2png.sh, UnixPrac1.txt, variables.sh, transformed.txt, Countlines.sh, FirstBiblio.bib, csvtospace.sh, boilerplate.sh, FirstExample.tex, tabtocsv.sh, MyExampleScript.sh, CompileLaTex.sh
+
+Found the following extra files: FirstExample.blg, FirstExample.pdf
+0.5 pt deducted per extra file
+
+Current Points = 99.0
+
+======================================================================
+Testing script/code files...
+
+======================================================================
+Inspecting script file ConcatenateTwoFiles.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+# Author: Zongyi Hu zh2720@ic.ac.uk
+# Script: ConcatenateTwoFiles.sh
+# Description: concatenate two files
+
+# Saves the output into a .txt file
+# Arguments: 1 -> the first file needs to be contatenated
+# Arguments: 2 -> the second file needs to be contatenated
+# Arguments: 3 -> the output file
+
+# Data: Oct 2020
+
+if [[ -z $1 || ! -e $1 ]]
+then 
+    echo "Please enter a file."
+elif [[ -z $2 || ! -e $2 ]]
+then
+    echo "Please enter a second file."
+else
+    cat $1 > $3
+    cat $2 >> $3
+    echo "Merged File is"
+    cat $3
+fi
+
+
+
+**********************************************************************
+
+Testing ConcatenateTwoFiles.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+Please enter a file.
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00406s
+
+======================================================================
+Inspecting script file tiff2png.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+
+path="${1%/*}/"
+echo "$path"
+if [[ -z $1 || ! -e $1 ]]
+then 
+    echo "Please enter a image."
+else
+for f in $path*.tif;
+	do
+		echo "Converting $f";
+		convert "$f" "$path$(basename "$f" .tif).png";
+		# convert "$f" "${f%tif}png"
+	done
+fi
+**********************************************************************
+
+Testing tiff2png.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+/
+Please enter a image.
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00576s
+
+======================================================================
+Inspecting script file UnixPrac1.txt...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+#FASTA exercise
+#1 Count how many lines there are in each file
+wc -l ../data/fasta/407228326.fasta ../data/fasta/407228412.fasta ../data/fasta/E.coli.fasta
+
+#2 Print everything starting from the second line for the E.coli genome
+tail -n +2 ../data/fasta/E.coli.fasta | head -n 1
+
+#3 Count the sequence length of this genome
+tail -n +2 ../data/fasta/E.coli.fasta | tr -d "\r\n" | wc -m
+
+#4 Count the matches of a perticular sequence, "ATGC" in the genome of E.coli
+tail -n +2 ../data/fasta/E.coli.fasta | tr -d "\r\n" | grep -o ATGC | wc -l
+
+# Computate the AT/GC ratio
+echo $(tail -n +2 ../data/fasta/E.coli.fasta | grep -oE "A|T" | wc -l)/$(tail -n +2 ../data/fasta/E.coli.fasta | grep -oE "G|C" | wc -l) | bc -l
+
+**********************************************************************
+
+Testing UnixPrac1.txt...
+
+======================================================================
+Inspecting script file variables.sh...
+
+File contents are:
+
+**********************************************************************
+#!bin/bash
+
+#Shows the use of variables
+MyVar='some string'
+echo 'the current value of the variable is' $MyVar
+echo 'Please enter a new stirng'
+read MyVar
+echo 'the current value of the variable is' $MyVar
+
+##Reading multiple values
+echo 'Enter two numbers separated by space(s)'
+read a b 
+mysum=`expr $a + $b`
+echo 'you entered' $a 'and' $b '. Their sum is :'
+echo $mysum
+
+**********************************************************************
+
+Testing variables.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+the current value of the variable is some string
+Please enter a new stirng
+the current value of the variable is
+Enter two numbers separated by space(s)
+you entered and . Their sum is :
+
+
+**********************************************************************
+
+Encountered error (or warning):
+expr: syntax error: missing argument after ‘+’
+
+======================================================================
+Inspecting script file transformed.txt...
+
+File contents are:
+
+**********************************************************************
+../sandbox/TestWild/File1.txt
+
+
+**********************************************************************
+
+Testing transformed.txt...
+
+======================================================================
+Inspecting script file Countlines.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+
+NumLines=`wc -l < $1`
+echo "The file $1 has $NumLines lines"
+echo
+
+**********************************************************************
+
+Testing Countlines.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+The file  has  lines
+
+
+**********************************************************************
+
+Encountered error (or warning):
+Countlines.sh: line 3: $1: ambiguous redirect
+
+======================================================================
+Inspecting script file FirstBiblio.bib...
+
+File contents are:
+
+**********************************************************************
+@article{einstein1905does,
+  title={Does the inertia of a body depend upon its energy-content},
+  author={Einstein, Albert},
+  journal={Ann Phys},
+  volume={18},
+  pages={639--641},
+  year={1905}
+}
+
+**********************************************************************
+
+Testing FirstBiblio.bib...
+
+======================================================================
+Inspecting script file csvtospace.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+# Author: Zongyi Hu zh2720@ic.ac.uk
+# Script: csvtospace.sh
+# Description: substitute the csv inn the files with space
+#
+# Saves the output into a .txt file
+# Arguments: 1 -> tab delimited file
+# Data: Oct 2020
+
+if [[ -z $1 || ! -e $1 ]]
+then 
+    echo "Please input a correct file."
+exit 1
+fi
+
+if [[ -e $2 ]]
+then 
+    echo "Please just input one file."
+else
+    cat $1 | tr -s "," " " > $1.txt
+exit
+fi
+
+# delet intereactive order
+# if [[ -e $1.txt ]]
+# then
+#     echo "Do you want to replace $1.txt? "yes"or"no""
+#     read
+#         if $REPLY == "yes"
+#         then
+#         cat $1 | tr -s "," " " >> $1.txt
+#         echo "Done!"
+#         elif $REPLY == "no"
+#         then
+#         echo "Would you like to quit or build a new file? "Q" or "B""
+#         read 
+#             if $REPLY == "Q"
+#             then
+#             echo "Quit!"
+#             elif $REPLY == "B"
+#             then
+#             cat $1 | tr -s "," " " > $1_1.txt 
+#             echo "Done!"
+#         fi
+#         fi
+# else
+#     cat $1 | tr -s "," " " > $1.txt
+#     fi
+# exit
+**********************************************************************
+
+Testing csvtospace.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+Please input a correct file.
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00457s
+
+======================================================================
+Inspecting script file boilerplate.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+# Author: zongyi zh2720@imperial.ac.uk
+# Script: boilerplatesh
+# Desc: simple boilerplate for shell scripts
+# Arguments: none
+# Date: Oct 2019
+
+echo -e  "\nThis is a shell script! \n"
+
+#exit
+
+
+**********************************************************************
+
+Testing boilerplate.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+
+This is a shell script! 
+
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00380s
+
+======================================================================
+Inspecting script file FirstExample.tex...
+
+File contents are:
+
+**********************************************************************
+\documentclass[12pt]{article}
+
+\title{A Simple Document}
+\author{Your Name}
+\date{}
+\begin{document}
+    \maketitle
+    \begin{abstract}
+        This paper must be cool!
+    \end{abstract}
+
+    \section{Introduction}
+        Blah BlaH!
+
+    \section{Materials \& Methods} 
+    One of the most famous equations is:
+    \begin{equation}
+        E = mc^2
+    \end{equation}
+    This equation was first proposed by Einstein in 1905
+    \cite{einstein1905does}.
+
+    \bibliographystyle{plain}
+    \bibliography{FirstBiblio}
+\end{document}
+    
+
+**********************************************************************
+
+Testing FirstExample.tex...
+
+======================================================================
+Inspecting script file tabtocsv.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+#Author: zongyi zh2720@imperial.ac.uk
+#Script: tabtoscv.sh
+#Description: substitute the tabs in the files with commas
+#
+#Saves the output into a .csv file
+#Arguments: 1 -> tab delimited file
+#Date: Oct 2019
+
+if [[ -z $1 || ! -e $1 ]]
+then
+    echo "Please input a correct file."
+exit 1
+fi
+
+if [[ -e $2 ]]
+then 
+    echo "Please just input one file."
+exit
+fi
+
+echo "Creating a comma delimited version of $1 ..."
+cat $1 | tr -s "\t" "," >> $1.csv
+echo "Done!"
+#exit
+
+**********************************************************************
+
+Testing tabtocsv.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+Please input a correct file.
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00427s
+
+======================================================================
+Inspecting script file MyExampleScript.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+
+msg1="Hello"
+msg2=$USER
+echo "$msg1 $msg2"
+echo "Hello $USER"
+echo
+
+**********************************************************************
+
+Testing MyExampleScript.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+Hello mhasoba
+Hello mhasoba
+
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00392s
+
+======================================================================
+Inspecting script file CompileLaTex.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+
+pdflatex $1
+pdflatex $1
+name=$(echo "$1" | cut -f 1 -d '.')
+bibtex $name
+echo "$name"
+pdflatex $1
+pdflatex $1
+evince $name.pdf 
+
+##Cleanup
+rm *~
+rm *.aux
+rm *.dvi
+rm *.log
+rm *.nav
+rm *.out
+rm *.snm
+rm *.toc
+**********************************************************************
+
+Testing CompileLaTex.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+**
+! End of file on the terminal... why?
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+**
+! End of file on the terminal... why?
+
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+**
+! End of file on the terminal..
+**********************************************************************
+
+Encountered error (or warning):
+bibtex: Need exactly one file argument.
+Try `bibtex --help' for more information.
+
+** (evince:44041): WARNING **: 17:00:36.338: Error when getting information for file “/home/mhasoba/Documents/Teaching/IC_CMEE/2020-21/Coursework/StudentRepos/ZongyiHu_zh2720/week1/code/.pdf”: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.338: set_filenames: Error when getting information for file “/home/mhasoba/Documents/Teaching/IC_CMEE/2020-21/Coursework/StudentRepos/ZongyiHu_zh2720/week1/code/.pdf”: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.363: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.363: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.363: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.363: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.363: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.363: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.364: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.364: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.364: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.364: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.364: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.364: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.373: Error setting file metadata: No such file or directory
+
+** (evince:44041): WARNING **: 17:00:36.373: Error setting file metadata: No such file or directory
+rm: cannot remove '*~': No such file or directory
+rm: cannot remove '*.aux': No such file or directory
+rm: cannot remove '*.dvi': No such file or directory
+rm: cannot remove '*.log': No such file or directory
+rm: cannot remove '*.nav': No such file or directory
+rm: cannot remove '*.out': No such file or directory
+rm: cannot remove '*.snm': No such file or directory
+rm: cannot remove '*.toc': No such file or directory
+
+======================================================================
+======================================================================
+Finished running scripts
+
+Ran into 3 errors
+
+======================================================================
+======================================================================
+
+FINISHED WEEKLY ASSESSMENT
+
+Current Points for the Week = 99.0
+
+NOTE THAT THESE ARE POINTS, NOT MARKS FOR THE WEEK!
