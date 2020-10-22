@@ -58,6 +58,7 @@ print("Outside the function, the value of _a_global now is",_a_global)
 
 
 """ global keyword works inside the nested functions"""
+"""function in function"""
 def d_function():
     _a_global = 10
 
@@ -80,6 +81,7 @@ print("The value of a_global in main workspace / namespace is", _a_global)
 _a_global = 10
 
 """befor or after calling the function"""
+"""function in function"""
 def e_function():
     def _a_function2():
         global _a_global
