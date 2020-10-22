@@ -7,7 +7,8 @@ __author__ = 'Zongyi Hu (zh2720@ic.ac.uk)'
 __version__ = '0.0.1'
 
 import sys
-# Two example sequences to match
+
+"""Two example sequences to match"""
 # seq2 = "ATCGCCGGATTACGGG"
 # seq1 = "CAATTCGGAT"
 
@@ -29,8 +30,7 @@ def longer_seq(seq1, seq2):
         s2 = seq1
         l1, l2 = l2, l1 # swap the two lengths
 
-# A function that computes a score by returning the number of matches starting
-# from arbitrary startpoint (chosen by user)
+"""A function that computes a score by returning the number of matches starting from arbitrary startpoint (chosen by user)"""
 def calculate_score(s1, s2, l1, l2, startpoint):
     matched = "" # to hold string displaying alignements
     score = 0
@@ -56,8 +56,7 @@ def calculate_score(s1, s2, l1, l2, startpoint):
 # calculate_score(s1, s2, l1, l2, 1)
 # calculate_score(s1, s2, l1, l2, 5)
 
-# now try to find the best match (highest score) for the two sequences
-
+"""now try to find the best match (highest score) for the two sequences"""
 def best_match(s1, s2, l1, l2):
     my_best_align = None
     my_best_score = -1
@@ -77,6 +76,7 @@ def best_match(s1, s2, l1, l2):
     g.write(f"The best score is: {my_best_score}" + "\n")
     g.close()
 
+"""main function"""
 def main(argv):
     with open("../data/sequence.csv") as f:
         seq1 = f.readline()

@@ -11,16 +11,17 @@ __version__ = '0.0.1'
 
 import sys
 
+"""is a number even or odd"""
 def even_or_odd(x = 0): # if not specified, x should take value 0.
 
     """Find whether a number x is even or odd."""
     if x % 2 == 0: #The conditional if
         return "%d is Odd!" % x
 
-def largest_divisor_five(x = 120):
-    """
+"""
     Find which is the largest divisor of x among 2,3,4,5
     """
+def largest_divisor_five(x = 120):
     largest = 0
     if x % 5 == 0:
         largest = 5
@@ -52,6 +53,7 @@ def find_all_primes(x=22):
     print("There are %d primes between 2 and %d" % (len(allprimes),x))
     return allprimes
 
+"""main function"""
 def main(argv):
     print(even_or_odd(22))
     print(even_or_odd(33))

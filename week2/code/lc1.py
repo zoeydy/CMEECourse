@@ -5,9 +5,9 @@ birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
           ('Tachycineata bicolor','Tree swallow',20.2),
          )
 
-#(1) Write three separate list comprehensions that create three different
-#    lists containing the latin names, common names and mean body masses for
-#    each species in birds, respectively. 
+"""Write three separate list comprehensions that create three different
+        lists containing the latin names, common names and mean body masses for
+        each species in birds, respectively. """
 
 latin = [species[0] for species in birds]
 common = [species[1] for species in birds]
@@ -16,8 +16,8 @@ print(latin)
 print(common)
 print(masses)
 
-# (2) Now do the same using conventional loops (you can choose to do this 
-#     before 1 !).
+"""(2) Now do the same using conventional loops (you can choose to do this 
+       before 1 !)."""
 
 latin = []
 common = []

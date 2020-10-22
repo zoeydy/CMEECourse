@@ -1,4 +1,4 @@
-# FOR Loops in python
+""" FOR Loops in python"""
 
 for i in range(5):
     print(i)
@@ -13,7 +13,7 @@ for s in summands:
     total = total + s
     print(total)
 
-# WHILE Loops in Python
+""" WHILE Loops in Python"""
 
 z = 0
 while z < 100:
@@ -24,4 +24,4 @@ b = True
 while b:
     print("GERONIMO! infinite loops! ctrl+c to stop!")
 
-# ctrl+c to stop!
+""" ctrl+c to stop!"""

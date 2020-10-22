@@ -26,11 +26,13 @@ def even_or_odd(x=0):
     '-2 is Even!'
     
     """
-    #Define function to be tested
+    
+    """Define function to be tested"""
     if x % 2 == 0:
         return "%d is Even!" % x
     return "%d is Odd!" % x
 
+"""main function"""
 def main(argv): 
     print(even_or_odd(22))
     print(even_or_odd(33))

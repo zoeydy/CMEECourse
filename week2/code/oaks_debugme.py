@@ -2,7 +2,7 @@ import csv
 import sys
 import doctest
 
-#Define function
+"""function to verdict if it is a oak"""
 def is_an_oak(name):
     """ Returns True if name is starts with 'quercus' 
     
@@ -21,6 +21,7 @@ def is_an_oak(name):
     """
     return name == 'Quercus'
 
+"""main funciton"""
 def main(argv): 
     f = open('../data/TestOaksData.csv','r')
     g = open('../data/JustOaksData.csv','w')

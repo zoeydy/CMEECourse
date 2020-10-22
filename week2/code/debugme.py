@@ -1,3 +1,4 @@
+"""function to buggy"""
 def buggyfunc(x):
     y = x
     for i in range(x):
