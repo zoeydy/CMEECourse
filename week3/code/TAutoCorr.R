@@ -1,0 +1,1 @@
+load("../data/KeyWestAnnualMeanTemperature.Rdata")
