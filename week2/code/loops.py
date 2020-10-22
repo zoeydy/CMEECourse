@@ -23,5 +23,6 @@ while z < 100:
 b = True
 while b:
     print("GERONIMO! infinite loops! ctrl+c to stop!")
+    b = False
 
 """ ctrl+c to stop!"""
