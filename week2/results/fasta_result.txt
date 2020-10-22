@@ -1,0 +1,4 @@
+The best align is:
+CAATTCGGAT
+ATCGCCGGATTACGGG
+The best score is: 5
