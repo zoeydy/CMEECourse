@@ -96,3 +96,5 @@ def e_function():
 a_function()
 
 print("The value of a_global in main workspace / namespace is", _a_global)
+
+"""learn to use subfunction"""
