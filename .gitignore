@@ -5,6 +5,8 @@
 *.docx
 *.jpeg
 
+week4/
+
 #LaTex/pdflatex auxiliary files:
 *.aux
 *.lof
