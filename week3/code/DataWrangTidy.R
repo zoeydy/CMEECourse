@@ -41,11 +41,12 @@ head(TempData)
 install.packages("tidyr")
 require(tidyr) # load the reshape2 package
 
+
 ?tidyr #check out the tidyr function
 
 ######
-MyWrangledData <- gather(TempData, "Species", "Count", 5:ncol(TempData))
-# gather(data, "variable name", "the name of variable's value")
+MyWrangledData <- melt(TempData, id=c("Cultivation", "Block", "Plot", "Quadrat"), variable.name = "Species", value.name = "Count")
+# id = c("data", "...save columns...", variable.name = "" # melt data's name, value.name = "" # the name of variable's value)
 
 # change data type of each column
 MyWrangledData[, "Cultivation"] <- as.factor(MyWrangledData[, "Cultivation"])
