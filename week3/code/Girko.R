@@ -1,3 +1,5 @@
+rm(list = ls())
+
 ## Plotting two dataframes together with Girko’s circular law
 ##### First, we need to build a function object that will calculate the ellipse (the perdicted bounds of the eigenvalues):
 build_ellipse <- function(hradius, vradius){ # function that returns an ellipse

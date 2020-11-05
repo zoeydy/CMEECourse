@@ -1,5 +1,7 @@
 
 ####################  Annotating plots
+rm(list = ls())
+
 
 ### In this example, we will use the ggplot geom text to annotate a plot.
 a <- read.table("../data/Results.txt", header = TRUE)

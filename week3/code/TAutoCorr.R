@@ -1,4 +1,4 @@
-
+rm(list = ls())
 load("../data/KeyWestAnnualMeanTemperature.RData")
 
 ats2 <- data.frame(Temp1 = ats$Temp[1:length(ats$Temp)-1], Temp2 = ats$Temp[2:length(ats$Temp)])

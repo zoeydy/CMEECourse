@@ -6,7 +6,7 @@ require(ggplot2)
 
 pdf("../results/PP_Regress.pdf")
 
-print(
+
   p <- ggplot(MyDF, aes(x = log(Prey.mass), y = log(Predator.mass), 
                         colour = Predator.lifestage)) +
     geom_point(shape = 3) +
@@ -15,7 +15,8 @@ print(
     facet_grid(Type.of.feeding.interaction ~. , scales = "free") +
     theme(legend.position = "bottom") +
     guides(col = guide_legend(nrow=1))
-)
+
+  print(p)
 
 graphics.off()
 
@@ -38,7 +39,7 @@ for(a in 1:length(FeedingType)){
     Subset2 <- subset(Subset1, Predator.lifestage == LifeStage[b])
     Model <- lm(log(Predator.mass)~log(Prey.mass), data = Subset2)
     Output <- summary(Model)
-    if(is.null(Output$fstatistic[1])  == TRUE){
+    if(is.null(Output$fstatistic[1])){
       DF2 <- data.frame(FeedingType = FeedingType[a],
                        LifeStage = LifeStage[b],
                        Slope = NA,

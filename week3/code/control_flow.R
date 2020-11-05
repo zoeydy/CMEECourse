@@ -1,3 +1,5 @@
+rm(list = ls())
+
 # if statements
 a <- TRUE
 

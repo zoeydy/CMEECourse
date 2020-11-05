@@ -1,4 +1,5 @@
 ######### Functions ##########
+rm(list = ls())
 
 ## A function to take a sample of size n from a population "popn" and return its mean
 myexperiment <- function(popn,n){

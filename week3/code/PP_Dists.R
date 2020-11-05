@@ -30,25 +30,41 @@ for (a in 1: length(DataType)){
 }
 
 
-
 ####### calculation
-MeanOutput <- list(NA * 5)
-# MedianOutput <- list(NA * 5)
 
-for (i in 1:length(FeedingType)){
+MeanDF <- data.frame()
+MedianDF <- data.frame()
+
+for (i in 1:length(FeedingType)) {
+  # browser()
   Subset <- subset(MyDF_New, Feeding.type == FeedingType[i])
-  
-  MeanOutput[[i]] <- apply(Subset[,-ncol(MyDF_New)], 2, mean)
-  MeanDF <- data.frame(list(MeanOutput))
-  names(MeanDF) <- c(FeedingType[1:length(FeedingType)])
-  row.names(MeanDF) <- c("Predator.mass.mean", "Prey.mass.mean", "SizeRatio.mean")
-  
-  MedianOutput[[i]] <- apply(Subset[,-ncol(MyDF_New)], 2, median)
-  MedianDF <- data.frame(list(MedianOutput))
-  names(MedianDF) <- c(FeedingType[1:length(FeedingType)])
-  row.names(MedianDF) <- (c("Predator.mass.median", "Prey.mass.median", "SizeRatio.median"))
+  MeanDF <- rbind(MeanDF, t(data.frame(apply(Subset[,-ncol(MyDF_New)], 2, mean))))
+  MedianDF <- rbind(MedianDF, t(data.frame(apply(Subset[,-ncol(MyDF_New)], 2, median))))
 }
+
+# Set dataframe names
+row.names(MeanDF) <- FeedingType
+row.names(MedianDF) <- FeedingType
+names(MeanDF) <- paste(DataType, "Mean")
+names(MedianDF) <- paste(DataType, "Median")
+
+
+OutputDF <- rbind(t(MeanDF), t(MedianDF))
+write.csv(OutputDF ,"../results/PP_Results.csv")
+
+
+
+
+
+
+
+
+# MeanOutput <- list(NA * 5)
+# MedianOutput <- list(NA * 5)
+# for (i in 1:length(FeedingType)){
+#   Subset <- subset(MyDF_New, Feeding.type == FeedingType[i])
+#   MeanOutput[[i]] <- apply(Subset[,-ncol(MyDF_New)], 2, mean)
+#   MedianOutput[[i]] <- apply(Subset[,-ncol(MyDF_New)], 2, median)
+# }
 # MeanOutput
 # MedianOutput
-OutputDF <- rbind(MeanDF, MedianDF)
-write.csv(OutputDF ,"../results/PP_Results.csv")

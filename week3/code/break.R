@@ -1,3 +1,5 @@
+rm(list = ls())
+
 i <- 0
 while(i<Inf){
     if(i == 10){

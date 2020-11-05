@@ -1,3 +1,5 @@
+rm(list = ls())
+
 # Checks if an integer is even
 
 is.even <- function(n = 2){

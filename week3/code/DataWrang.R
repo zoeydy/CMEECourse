@@ -2,6 +2,8 @@
 ################## Wrangling the Pound Hill Dataset ############
 ################################################################
 
+rm(list = ls())
+
 ############# Load the dataset ###############
 # header = false because the raw data don't have real headers
 MyData <- as.matrix(read.csv("../data/PoundHillData.csv",header = F)) 
@@ -38,7 +40,7 @@ rownames(TempData) <- NULL
 head(TempData)
 
 ############# Convert from wide to long format  ###############
-install.packages("reshape2")
+# install.packages("reshape2")
 require(reshape2) # load the reshape2 package
 
 ?melt #check out the melt function

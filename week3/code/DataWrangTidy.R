@@ -4,9 +4,15 @@
 ################################################################
 
 rm(list = ls())
+
 # install.packages(c("tidyverse"))
 # sudo apt install r-cran-tidyverse
+# install.packages("tidyr")
+
+# require the packages we will use
 require(tidyverse)
+require(tidyr)
+
 # list the package to if there are some name-conflict-masking messages
 tidyverse_packages(include_self = TRUE) # the include_self = TRUE means list "tidyverse" as well 
 
@@ -28,18 +34,18 @@ fix(MyData) #you can also do this
 fix(MyMetaData)
 
 
-
 ############# Transpose ###############
 # To get those species into columns and treatments into rows 
-#c MyData <- t(MyData) # t():exchange columns and rows
+MyData <- t(MyData) # t():exchange columns and rows
 head(MyData)
 dim(MyData)
+
 
 ############# Replace species absences with zeros ###############
 MyData[MyData == ""] = 0
 
-############# Convert raw matrix to data frame ###############
 
+############# Convert raw matrix to data frame ###############
 # check if the first row is column name in R
 colnames(MyData)
 # so manually delete the first row when transferring MyData into dataframe
@@ -50,16 +56,12 @@ colnames(TempData) <- MyData[1,] # assign column names from original data
 rownames(TempData) <- NULL
 head(TempData)
 
+
 ############# Convert from wide to long format  ###############
-install.packages("tidyr")
-require(tidyr) # load the reshape2 package
+MyWrangledData <-
+  TempData %>%
+  gather(Species, Count, -Cultivation,-Block,-Plot,-Quadrat)
 
-
-?tidyr #check out the tidyr function
-
-######
-MyWrangledData <- melt(TempData, id=c("Cultivation", "Block", "Plot", "Quadrat"), variable.name = "Species", value.name = "Count")
-# id = c("data", "...save columns...", variable.name = "" # melt data's name, value.name = "" # the name of variable's value)
 
 # change data type of each column
 MyWrangledData[, "Cultivation"] <- as.factor(MyWrangledData[, "Cultivation"])

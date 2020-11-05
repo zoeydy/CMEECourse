@@ -1,3 +1,6 @@
+rm(list = ls())
+
+
 NoPreallocFun <- function(x){
     a <- vector() # empty vector
     for (i in 1:x) {

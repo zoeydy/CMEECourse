@@ -1,4 +1,6 @@
-# Week2-Python
+# Week2-Biological Computing in Python
+
+## Brief description
 ## Install python
 ## Python varialble
 ## Python operator
@@ -11,3 +13,10 @@
 ## variable scope
 ## Writing Python programe
 ## Debuge
+
+## Language
+Python
+
+## Author name and contact
+Zongyi Hu
+zh2720@ic.ac.uk

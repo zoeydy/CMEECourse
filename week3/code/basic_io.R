@@ -1,3 +1,5 @@
+rm(list = ls())
+
 # A simple script to illustrate R input-output.  
 # Run line by line and check inputs outputs to understand what is happening  
 

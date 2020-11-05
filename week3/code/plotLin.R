@@ -1,3 +1,5 @@
+rm(list = ls())
+
 require(ggplot2)
 ##### Mathematical display
 ####### Let’s try mathematical annotation on a axis, and in the plot area.

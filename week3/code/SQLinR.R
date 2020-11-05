@@ -1,5 +1,6 @@
+rm(list = ls())
 #install the sqlite package
-install.packages('sqldf')
+# install.packages('sqldf')
 
 # To load the packages
 library(sqldf)
