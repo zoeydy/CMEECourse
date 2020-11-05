@@ -1,13 +1,24 @@
 ################################################################
 ################## Wrangling the Pound Hill Dataset ############
+####################### Using tidyverse ########################
 ################################################################
+
+rm(list = ls())
+# install.packages(c("tidyverse"))
+# sudo apt install r-cran-tidyverse
+require(tidyverse)
+# list the package to if there are some name-conflict-masking messages
+tidyverse_packages(include_self = TRUE) # the include_self = TRUE means list "tidyverse" as well 
+
 
 ############# Load the dataset ###############
 # header = false because the raw data don't have real headers
 MyData <- as.matrix(read.csv("../data/PoundHillData.csv",header = F)) 
-
 # header = true because we do have metadata headers
-MyMetaData <- read.csv("../data/PoundHillMetaData.csv",header = T, sep=";", stringsAsFactors = F)
+MyMetaData <- read.csv("../data/PoundHillMetaData.csv",header = T, 
+                       sep=";", stringsAsFactors = F)
+
+
 
 ############# Inspect the dataset ###############
 head(MyData)
@@ -16,9 +27,11 @@ str(MyData)
 fix(MyData) #you can also do this
 fix(MyMetaData)
 
+
+
 ############# Transpose ###############
 # To get those species into columns and treatments into rows 
-MyData <- t(MyData) # t():exchange columns and rows
+#c MyData <- t(MyData) # t():exchange columns and rows
 head(MyData)
 dim(MyData)
 
@@ -58,12 +71,3 @@ MyWrangledData[, "Count"] <- as.integer(MyWrangledData[, "Count"])
 str(MyWrangledData)
 head(MyWrangledData)
 dim(MyWrangledData)
-
-############# Exploring the data (extend the script below)  ###############
-# tidyverse
-# !!!!!!!!!!!!!!!!!!!!!!!!!
-# install.packages(c("tidyverse"))
-# sudo apt install r-cran-tidyverse
-require(tidyverse)
-# list the package to if there are some name-conflict-masking messages
-tidyverse_packages(include_self = TRUE) # the include_self = TRUE means list "tidyverse" as well 
