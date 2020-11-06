@@ -1,26 +1,42 @@
-\documentclass[12pt]{article}
+\documentclass{article}
+\usepackage[utf8]{inputenc}
 
-\title{Autocorrelation in weather}
+\title{Auto-correlation in weather}
+\author{zongyi Hu}
+\date{October 2020}
 
-\author{Zongyi Hu}
-
-\date{24/10/2020}
+\usepackage{natbib}
+\usepackage{graphicx}
 
 \begin{document}
-  \maketitle
-  
-  \begin{abstract}
-    It's about if the temperation in each year is correlated.
-  \end{abstract}
-  
-  \section{Introduction}
-    We're gonna Autocorrelate data!
-  
-  \section{Materials \& Methods}
 
-  \cite{einstein1905does}.
-  
-  \bibliographystyle{plain}
-  \bibliography{FirstBiblio}
+\maketitle
+
+\section{Introduction}
+This is a document states how you can use R to auto-correlate the data.
+
+\section{Process}
+
+1. Using cor() function in R to calculate the correlation coefficient between successive years and store it. 
+
+2. Repeat the correlation coefficient calculation 10000 times by randomly permuting the time series, and then recalculating the correlation coefficient for each randomly permuted year sequence and storing it. The graph will be showed at the end of the PDF.
+
+3. Then calculate what fraction of the correlation coefficients from the previous step were greater than that from step 1 (this is the approximate p-value).
+
+\begin{figure}[h!]
+
+\centering
+\includegraphics[scale= 0.7]{../results/cor_list.png}
+\caption{1000 times calculate correlation coefficient}
+\label{fig:universe}
+
+\end{figure}
+
+
+
+\section{Conclusion}
+The calculated p-value is 3e-04, less than 0.5 shows that the temperature between successive years are independent.
+
+
+
 \end{document}
-

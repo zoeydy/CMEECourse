@@ -18,4 +18,10 @@ biger_num <- subset(cor_list, cor_list > cor0)
 p <- length(biger_num)/10000
 
 # plot(1:10000, cor_list)
+
+# save the graph in jpg
+png(file="../results/cor_list.png",
+    width=600, height=350)
+hist(cor_list)
+dev.off()
 hist(cor_list)
