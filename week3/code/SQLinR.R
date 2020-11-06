@@ -1,6 +1,5 @@
-rm(list = ls())
 #install the sqlite package
-# install.packages('sqldf')
+#install.packages('sqldf')
 
 # To load the packages
 library(sqldf)
@@ -45,7 +44,7 @@ dbGetQuery(db, "SELECT * FROM Consumer WHERE ConPhylum='Chordata'")
 # The easiest way is to read the csv files into R as data frames.
 # Then the data frames are imported into the database.
 
-Resource <- read.csv("../Data/Resource.csv")  # Read csv files into R
+Resource <- read.csv("../data/Resource.csv")  # Read csv files into R
 
 # Import data frames into database
  dbWriteTable(conn = db, name = "Resource", value = Resource, row.names = FALSE)
@@ -60,5 +59,4 @@ Resource <- read.csv("../Data/Resource.csv")  # Read csv files into R
 # the three data frames are removed from R’s environment.
  dbDisconnect(db)            # Close connection
  rm(list = c("Resource"))   # Remove data frames
-
 
