@@ -17,3 +17,5 @@ print(data.ID.unique())
 
 data_subset = data[data['ID']=='Chryseobacterium.balustinum_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.']
 data_subset.head()
+
+sns.lmplot("Time", "PopBio", data = data_subset, fit_reg = False)
