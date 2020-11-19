@@ -1,6 +1,8 @@
 *~ 
 *.tmp
 
+*/Results/*
+*/results/*
 */sandbox/*
 *.docx
 *.jpeg
