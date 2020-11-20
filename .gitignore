@@ -1,7 +1,7 @@
 *~ 
 *.tmp
 
-*/Results/*
+!.gitkeep
 */results/*
 */sandbox/*
 *.docx
