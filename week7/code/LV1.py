@@ -6,8 +6,11 @@ import scipy as sc
 import scipy.integrate as intergrate
 import matplotlib.pylab as p
 
+
+
+"""define the main function for latter profiling"""
 def main(argv):
-    # the function returns the growth rate of consumer and resource population at any given time step
+    """ the function returns the growth rate of consumer and resource population at any given time step """
     def dCR_dt(pops, t = 0):
         R = pops[0]
         C = pops[1]

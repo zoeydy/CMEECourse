@@ -1,3 +1,6 @@
+"""profile LV1 and LV2"""
+
+
 
 import sys
 import cProfile
@@ -9,7 +12,7 @@ import LV2
 
 
 
-
+"""define main function"""
 def main():
     # Create profiler (Just need to profile once)
     pr = cProfile.Profile()

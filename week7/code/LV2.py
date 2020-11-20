@@ -9,10 +9,7 @@ import scipy.integrate as intergrate
 import matplotlib.pylab as p
 
 
-
-
-
-# define function
+""" define function for the equation"""
 def dCR_dt(pops, t = 0):
     R = pops[0]
     C = pops[1]
@@ -20,6 +17,8 @@ def dCR_dt(pops, t = 0):
     dCdt = e*a*R*C - z*C
 
     return sc.array([dRdt, dCdt])
+
+
 
 def integ(dCR_dt,t):
     R0 = 10
@@ -41,8 +40,8 @@ def integ(dCR_dt,t):
 # z = 1.5
 # e = 0.75
 
-    # Plotting in Python 
-    # 1. Population density VS. Time
+""" Plotting in Python """
+"""1. Population density VS. Time"""
 def f1(pops, t):
      
     f1 = p.figure(figsize=(7, 6)) # open an empty figure object(analogous to an R graphics object)
@@ -59,7 +58,7 @@ def f1(pops, t):
     f1.savefig("../results/LV2_model1.pdf")
 
 
-    # 2. Consumer-Resource population dynamics (Consumer density VS. Resource density)
+""" 2. Consumer-Resource population dynamics (Consumer density VS. Resource density)"""
 def f2(pops, t):
     f2 = p.figure(figsize=(7, 6)) # open an empty figure object(analogous to an R graphics object)
     p.plot(pops[:,0], pops[:,1],'-r')
@@ -72,7 +71,7 @@ def f2(pops, t):
     f2.savefig("../results/LV2_model2.pdf")
 
     
-
+""" define the main function """
 def main(argv):
     global r
     global a
@@ -84,15 +83,11 @@ def main(argv):
     z = float(argv[3])
     e = float(argv[4])
     K = 10000.0
-
     t = sc.linspace(0, 30, 1000)
+    
     pops= integ(dCR_dt,t)
     f1(pops, t)
     f2(pops, t)
-
-    
-    
-
 
 
 if __name__ == "__main__": 

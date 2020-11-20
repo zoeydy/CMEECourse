@@ -1,26 +1,39 @@
+"""Using regular expression"""
+
+
 import re
+import sys
 
-# Read the file (using a different, more python 3 way, just for fun!)
-with open('../data/blackbirds.txt', 'r') as f:
-    text = f.read()
 
-# replace \t's and \n's with a spaces:
-text = text.replace('\t',' ')
-text = text.replace('\n',' ')
-# You may want to make other changes to the text. 
+def main(argv):
+    # Read the file (using a different, more python 3 way, just for fun!)
+    with open('../data/blackbirds.txt', 'r') as f:
+        text = f.read()
 
-# In particular, note that there are "strange characters" (these are accents and
-# non-ascii symbols) because we don't care for them, first transform to ASCII:
+    # replace \t's and \n's with a spaces:
+    text = text.replace('\t',' ')
+    text = text.replace('\n',' ')
+    # You may want to make other changes to the text. 
 
-text = text.encode('ascii', 'ignore') # first encode into ascii bytes
-text = text.decode('ascii', 'ignore') # Now decode back to string
+    # In particular, note that there are "strange characters" (these are accents and
+    # non-ascii symbols) because we don't care for them, first transform to ASCII:
 
-# Now extend this script so that it captures the Kingdom, Phylum and Species
-# name for each species and prints it out to screen neatly.
+    text = text.encode('ascii', 'ignore') # first encode into ascii bytes
+    text = text.decode('ascii', 'ignore') # Now decode back to string
 
-Kingdoms = re.findall(r'Kingdom\s(\w*\s).*?Phylum\s(\w*\s).*?Species\s(\w*\s\w*)', text)
-for Kingdom in Kingdoms:
-    print(Kingdom)
+    # Now extend this script so that it captures the Kingdom, Phylum and Species
+    # name for each species and prints it out to screen neatly.
+
+    Kingdoms = re.findall(r'Kingdom\s(\w*\s).*?Phylum\s(\w*\s).*?Species\s(\w*\s\w*)', text)
+    for Kingdom in Kingdoms:
+        print(Kingdom)
+
+    return None
+
+
+if __name__ == "__main__":
+    status = main(sys.argv)
+    sys.exit(status)
 
 
 # Hint: you may want to use re.findall(my_reg, text)... Keep in mind that there
