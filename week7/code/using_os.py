@@ -26,11 +26,14 @@ for (dirs, subdirs, files) in subprocess.os.walk(home):
     for dir in dirs:
         if dir[0] == 'C':
             FilesDirsStartingWithC.append(dir)
+    for subdir in subdirs:
+        if subdir[0] == 'C':
+            FilesDirsStartingWithC.append(subdir)
     for file in files:
         if files[0] == 'C':
             FilesDirsStartingWithC.append(file)
 
-print(FilesDirsStartingWithC)
+# print(FilesDirsStartingWithC)
     
 
 
@@ -52,7 +55,7 @@ for (dirs, subdirs, files) in subprocess.os.walk(home):
         if dir[0] == 'c':
             FilesDirsStartingWithCc.append(dir)
 
-print(FilesDirsStartingWithCc)
+# print(FilesDirsStartingWithCc)
 
 
 

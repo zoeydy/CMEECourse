@@ -2,12 +2,16 @@
 # print the output and whether this script runs correctly
 
 
-import subprocess
+import subprocess as sp
 
-retcode = subprocess.call(['fmr.R', '--vanilla', 'T:/2012.R'], shell=True)
-subprocess.call ("/usr/bin/Rscript --vanilla fmr.R", shell=True)
-subprocess.call (["/usr/bin/Rscript", "--vanilla", "fmr.R"], shell=True)
+p = sp.Popen(["Rscript", "fmr.R"], stdout=sp.PIPE, stderr=sp.PIPE)   
+# res = tuple (stdout, stderr)
+res = p.communicate()
+if p.returncode == 0:
+    print("success")
+    for line in res[0].decode(encoding='utf-8').split('\n'):
+        print(line)
 
-subprocess.os.system("Rscript fmr.R")
+if res[1] != 0:
+    print("error:", res[0].decode(encoding='utf-8'))
 
-subprocess.Popen("Rscript --verbose fmr.R > ../results/fmr.Rout 2> ../results/fmr_errFile.Rout", shell=True).wait()

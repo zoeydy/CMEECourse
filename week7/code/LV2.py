@@ -83,14 +83,14 @@ def main(argv):
     a = float(argv[2])
     z = float(argv[3])
     e = float(argv[4])
-    K = 10.0
+    K = 10000.0
 
     t = sc.linspace(0, 30, 1000)
     pops= integ(dCR_dt,t)
     f1(pops, t)
     f2(pops, t)
 
-    return None
+    
     
 
 
