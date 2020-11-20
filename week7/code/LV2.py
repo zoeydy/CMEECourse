@@ -19,7 +19,7 @@ def dCR_dt(pops, t = 0):
     return sc.array([dRdt, dCdt])
 
 
-
+"""define integration docstring"""
 def integ(dCR_dt,t):
     R0 = 10
     C0 = 5

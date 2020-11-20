@@ -1,6 +1,6 @@
 import sys
 
-
+"""profile 2 functions"""
 
 """frofile function"""
 def my_squares(iters):
@@ -20,9 +20,9 @@ def my_join(iters, string):
 
 
 """define main function"""
-
+"""frofile function"""
 def main(argv):
-    """frofile function"""
+    
     def run_my_funcs(x,y):
         print(x,y)
         my_squares(x)
