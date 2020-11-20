@@ -14,9 +14,6 @@ def main():
     # Create profiler (Just need to profile once)
     pr = cProfile.Profile()
 
-
-
-
     ## LV1
 
     # For each LV script...

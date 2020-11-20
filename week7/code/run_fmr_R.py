@@ -7,11 +7,14 @@ import subprocess as sp
 p = sp.Popen(["Rscript", "fmr.R"], stdout=sp.PIPE, stderr=sp.PIPE)   
 # res = tuple (stdout, stderr)
 res = p.communicate()
-if p.returncode == 0:
-    print("success")
-    for line in res[0].decode(encoding='utf-8').split('\n'):
-        print(line)
 
-if res[1] != 0:
-    print("error:", res[0].decode(encoding='utf-8'))
+print("stdout:")
+print(res[0].decode(encoding='utf-8'))
+
+if p.returncode == 0:
+    print("+==========+\n| Success! |\n+==========+")
+else:
+    print("Error:", res[0].decode(encoding='utf-8'))
+    print("stderr")
+    print(res[1].decode(encoding='utf-8'))
 

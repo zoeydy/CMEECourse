@@ -2,7 +2,6 @@
 # 1999 dataset to a file fmr.pdf.
 
 cat("Reading CSV\n")
-
 nagy <- read.csv('../data/NagyEtAl1999.csv', stringsAsFactors = FALSE)
 
 cat("Creating graph\n")

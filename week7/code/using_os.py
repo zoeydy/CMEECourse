@@ -1,4 +1,4 @@
-""" This is blah blah"""
+""" This is a script showing how to use os to get the names of subdirectories and files started with specific letter"""
 
 import subprocess
 import os
@@ -22,18 +22,16 @@ home = subprocess.os.path.expanduser("~")
 FilesDirsStartingWithC = []
 # Use a for loop to walk through the home directory.
 for (dirs, subdirs, files) in subprocess.os.walk(home):
-    dirs = dirs.split() # ? dirs(string -> list); while lists is list
-    for dir in dirs:
-        if dir[0] == 'C':
-            FilesDirsStartingWithC.append(dir)
-    for subdir in subdirs:
-        if subdir[0] == 'C':
-            FilesDirsStartingWithC.append(subdir)
-    for file in files:
-        if files[0] == 'C':
-            FilesDirsStartingWithC.append(file)
+    FilesDirsStartingWithC += [subdir for subdir in subdirs if subdir.startswith("C")]
+    FilesDirsStartingWithC += [file for file in files if file.startswith("C")]
+    # for subdir in subdirs:
+    #     if subdir[0] == 'C':
+    #         FilesDirsStartingWithC.append(subdir)
+    # for file in files:
+    #     if files[0] == 'C':
+    #         FilesDirsStartingWithC.append(file)
 
-# print(FilesDirsStartingWithC)
+print(FilesDirsStartingWithC)
     
 
 
@@ -47,15 +45,20 @@ for (dirs, subdirs, files) in subprocess.os.walk(home):
 home = subprocess.os.path.expanduser("~")
 FilesDirsStartingWithCc = []
 for (dirs, subdirs, files) in subprocess.os.walk(home):
-    dirs = dirs.split()
 
-    for dir in dirs:
-        if dir[0] == 'C':
-            FilesDirsStartingWithCc.append(dir)
-        if dir[0] == 'c':
-            FilesDirsStartingWithCc.append(dir)
+    # for subdir in subdirs:
+    #     if subdir.lower().startswith("c"):
+    #         FilesDirsStartingWithCc.append(subdir)
 
-# print(FilesDirsStartingWithCc)
+    # for f in files:
+    #     if f.lower().startswith("c"):
+    #         FilesDirsStartingWithCc.append(f)
+
+    FilesDirsStartingWithCc += [subdir for subdir in subdirs if subdir.lower().startswith("c")]
+    
+    FilesDirsStartingWithCc += [f for f in files if f.lower().startswith("c")]
+
+print(FilesDirsStartingWithCc)
 
 
 
@@ -66,20 +69,8 @@ for (dirs, subdirs, files) in subprocess.os.walk(home):
 
 # Type your code here:
 home = subprocess.os.path.expanduser("~")
-FilesDirsStartingWithC = []
+DirsStartingWithCc = []
+for (dirs, subdirs, files) in subprocess.os.walk(home):
+    DirsStartingWithCc += [subdir for subdir in subdirs if subdir.lower().startswith("c")]
 
-
-
-############ outline
-
-# 1. get directory
-# 2. set a blank list to store the data
-# 3. get the directorys, subdirectories and files name
-# 4. check the first letter of the names using if statement
-    # for the 2nd question, I tried to do like 
-    # '''cap_words = [word.capitalize for word in words]'''
-    # but after that using if statement I will get error 
-    # '''TypeError: 'builtin_function_or_method' object is not subscriptable'''
-
-# 5. append the data
-## do not so clear about the last question means
+print(DirsStartingWithCc)
