@@ -1,230 +1,286 @@
-"","ID","AIC","r_max","N_0","K"
-"13","Chryseobacterium.balustinum_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-175.171234935673,0.00358564514092408,0.00715854881209865,0.34029277572623
-"50","Clavibacter.michiganensis_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-176.14497862185,0.00235501366638081,0.0184672090074712,0.532368279848783
-"40","Pseudomonas.fluorescens.2_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-194.081794157443,0.00271345786825333,0.00458578846207071,0.19398358203102
-"63","Acinetobacter.clacoaceticus.1_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-224.082336189669,0.0018439996264099,0.0191754740744806,0.116216674470001
-"91","Acinetobacter.clacoaceticus.2_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-222.989728977581,0.00207451636988053,0.00917443377170667,0.108817483857547
-"1","Stenotrophomonas.maltophilia.1_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-185.53324202259,0.00045913574411294,0.00518264945758405,0.168874551472457
-"35","Stenotrophomonas.maltophilia.2_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-200.639404520469,0.00255153054012114,0.00591757233214109,0.163138174450268
-"131","Klebsiella.pneumonia_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-163.535957975002,0.000276010819497885,0.0237887902557851,0.294961312752946
-"26","Dickeya.zeae_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-248.429553786033,0.000741347899980439,0.00311965975181578,0.0097681593117511
-"53","Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-255.088937649906,0.00135350323372063,0.00313791162131915,0.0282412320966634
-"33","Pantoea.agglomerans..RDA.R._5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-150.423443529978,0.000246727073796843,0.00532393970688703,0.325667320748629
-"39","Dickeya.zeae..RDA.R._5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-251.954742224432,0.00132320009044885,0.0017279931675735,0.0114255230381346
-"75","Acinetobacter.clacoaceticus..RDA.R._5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-245.728618755911,0.00184574563101573,0.0179100182404552,0.0375099315012677
-"29","Stenotrophomonas.maltophilia..RDA.R._5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-226.637034712632,0.00332652564738835,0.00247564930538378,0.185753050151479
-"97","Klebsiella.pneumonia..RDA.R._5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-247.852181747779,0.00164882002832623,0.00501756326416934,0.00612061885509505
-"34","Clavibacter.michiganensis..RDA.R._5_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-195.311139577922,0.00477893715882072,0.0170076671623133,0.181110229049386
-"15","Bacillus.pumilus..RDA.R._15_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-138.095295461211,0.00407737343942769,0.0021999412545311,0.11936370755591
-"501","Chryseobacterium.balustinum_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-52.0632337312418,0.00932841976883516,0.011449678261031,0.467066969930571
-"401","Enterobacter.sp._25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-76.5770131200652,0.00314718993731092,0.0252818804688782,0.900998016040366
-"751","Pantoea.agglomerans.1_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-16.7819062709842,0.0148157464512187,0.0108369230292738,0.711997704114765
-"80","Pantoea.agglomerans.2_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-7.56660460059251,0.0232734747401514,0.00417909533419502,1.21174308488968
-"70","Bacillus.pumilus_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-71.4655657375838,0.00662888785957604,0.00795954441963783,0.357119790994206
-"25","Clavibacter.michiganensis_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-31.4785417257739,0.00497930656079692,0.0227749294541563,0.930474292596156
-"76","Pseudomonas.fluorescens.2_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-69.3262627308763,0.00211918837537616,0.00744188318756495,0.404897269629651
-"60","Acinetobacter.clacoaceticus.2_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-19.9396226028943,0.000251383615527608,0.00301048089478115,0.463225491678537
-"31","Stenotrophomonas.maltophilia.1_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-58.8650011267388,0.00373840020362441,0.0271123565610822,0.184195939800702
-"88","Stenotrophomonas.maltophilia.2_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-69.6861925280756,0.00442089901786971,0.0160517527373813,0.521226327780242
-"89","Klebsiella.pneumonia_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-70.4892926207091,0.000220403731678152,0.0573801710127927,0.576673042274358
-"11","Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-2.61999165485048,0.00671561803202804,0.00346234770048287,0.361509821684214
-"87","Acinetobacter.clacoaceticus..RDA.R._25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-71.9408567647437,0.000354607493459133,0.0121027623038915,0.0734187966973504
-"84","Stenotrophomonas.maltophilia..RDA.R._25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-70.9434174072253,0.00368000755444613,0.010150191677977,0.319714224879417
-"56","Bacillus.pumilus..RDA.R._25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-82.738581789011,0.0171925377026407,0.00222364235088893,0.252267738187252
-"151","Clavibacter.michiganensis..RDA.R._25_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-7.8677766185821,8.02236901355344e-05,0.00665702659201997,0.591014724479253
-"54","Chryseobacterium.balustinum_35_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-62.4004370500751,0.00938542656275086,0.00377057102849774,0.204768438392321
-"24","Enterobacter.sp._35_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-60.6288128516498,0.00048999632048931,0.0315362604678332,0.651603176506851
-"12","Bacillus.pumilus_35_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-32.2315113528575,0.00339640279737884,5.9245780253804e-06,0.287850877518913
-"761","Clavibacter.michiganensis_35_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-79.8454796726447,0.000796848866451391,0.0108777021897087,0.897848236126162
-"41","Pseudomonas.fluorescens.1_35_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-106.493942378853,0.00171681427352439,0.00463388606851155,0.214639381206729
-"100","Acinetobacter.clacoaceticus.1_35_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-47.0787200612286,0.00310958969649487,0.0227941447585058,0.221636136514408
-"16","Acinetobacter.clacoaceticus.2_35_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-27.9493053158526,0.00189711625398343,0.0121154646074177,0.184204316920262
-"111","Klebsiella.pneumonia_35_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-108.683635610372,0.000161825587703805,0.0186786717228375,0.803356616892015
-"631","Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_35_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-27.8757771325256,0.00185989451858621,0.0200912075000189,0.273790714417504
-"38","Bacillus.pumilus..RDA.R._35_TSB_Bae, Y.M., Zheng, L., Hyun, J.E., Jung, K.S., Heu, S. and Lee, S.Y., 2014. Growth characteristics and biofilm formation of various spoilage bacteria isolated from fresh produce. Journal of food science, 79(10), pp.M2072-M2080.",-72.2708449507913,0.00189550536487449,0.00587976389604419,0.228615822167793
-"20","Tetraselmis tetrahele_5_ESAW_Bernhardt, J.R., Sunday, J.M. and O’Connor, M.I., 2018. Metabolic theory and the temperature-size rule explain the temperature dependence of population carrying capacity. The American naturalist, 192(6), pp.687-697.",960.011525392918,0.00365437434102068,111.669810839439,22021.6497264716
-"331","Tetraselmis tetrahele_8_ESAW_Bernhardt, J.R., Sunday, J.M. and O’Connor, M.I., 2018. Metabolic theory and the temperature-size rule explain the temperature dependence of population carrying capacity. The American naturalist, 192(6), pp.687-697.",981.445021164217,0.00214660352120097,266.406388505503,32868.9037847083
-"62","Tetraselmis tetrahele_25_ESAW_Bernhardt, J.R., Sunday, J.M. and O’Connor, M.I., 2018. Metabolic theory and the temperature-size rule explain the temperature dependence of population carrying capacity. The American naturalist, 192(6), pp.687-697.",1194.25487828272,0.00145066318988828,553.160478935098,20590.6745973914
-"351","Tetraselmis tetrahele_32_ESAW_Bernhardt, J.R., Sunday, J.M. and O’Connor, M.I., 2018. Metabolic theory and the temperature-size rule explain the temperature dependence of population carrying capacity. The American naturalist, 192(6), pp.687-697.",969.246440384434,0.000514123242356561,86.0815889442202,6684.15893445204
-"99","Staphylococcus spp._2_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",40.4819089308821,0.0223943901234642,1.39594511769576,963.704385197689
-"112","Staphylococcus spp._4_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",69.2901441670679,0.030976539773664,1.24840775629165,169.880985478327
-"341","Staphylococcus spp._7_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",173.52770814139,0.0331701811036435,1.47616880463324,1360.45213130108
-"69","Staphylococcus spp._10_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",125.188475955242,0.0484475149052404,1.12359192259156,1148.84644904908
-"19","Staphylococcus spp._15_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",98.6319660107075,0.083714105475818,2.89722013734357,1160.62169530751
-"30","Staphylococcus spp._20_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",89.0898229025022,0.168093978847105,1.78786002598657,526.515104577192
-"48","Staphylococcus spp._2_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",68.1003896923691,0.0208336441191923,0.640967742146203,559.107403523671
-"6","Staphylococcus spp._4_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",67.7577131604186,0.0119595613269528,4.06323374510771,511.548620879516
-"871","Staphylococcus spp._7_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",172.310024882432,0.0231143273419015,0.940621877294198,1732.22343856019
-"2","Staphylococcus spp._10_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",169.806476453806,0.0503431895973907,1.5140844011697,2668.89156906337
-"872","Staphylococcus spp._15_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",124.295749011897,0.0984825846552783,1.8186635480621,1986.38010064365
-"82","Staphylococcus spp._20_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",99.7367875452835,0.113389177776959,1.10296333337541,3724.479443284
-"332","Staphylococcus spp._2_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",52.9105343863103,0.0052973740521372,0.566277445000124,25.1596669152445
-"251","Staphylococcus spp._4_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",94.7175399075102,0.0324643533975638,2.06016965513558,443.647289789912
-"621","Staphylococcus spp._7_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",115.211036130087,0.0157241211345311,0.858680376205253,570.618417458181
-"161","Staphylococcus spp._10_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",115.277442123077,0.0556989592287654,1.04933051801489,702.26477908816
-"5","Staphylococcus spp._15_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",120.361961424736,0.0614668279730049,1.78723640358923,2296.49761606776
-"121","Staphylococcus spp._20_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",93.0318693930785,0.21307745640842,1.19587200006317,1913.79088067601
-"191","Pseudomonas spp._2_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",114.107204022833,0.0123792801871641,0.894096728950644,441.448489867228
-"81","Pseudomonas spp._4_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",90.44835174558,0.0141340556841492,1.20484838887576,1970.35031287709
-"37","Pseudomonas spp._7_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",136.016510453464,0.0296887920409481,0.820539940460733,486.987341659144
-"891","Pseudomonas spp._10_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",158.478080571014,0.0577521338805912,1.37339610449676,2036.33895392025
-"881","Pseudomonas spp._15_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",151.981780545729,0.114449245977664,0.993204856225404,2741.93027628275
-"821","Pseudomonas spp._20_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",101.921786627261,0.17933757693377,2.44507635568657,5329.80379314268
-"822","Pseudomonas spp._2_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",112.280638388336,0.0170281217994588,1.48514757745974,328.56805592735
-"691","Pseudomonas spp._4_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",81.3546351795588,0.0101097111668938,0.738792223728004,168.349837274331
-"882","Pseudomonas spp._7_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",102.114135648456,0.0367798162391204,1.48477456671491,200.830269027792
-"132","Pseudomonas spp._10_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",139.400119586605,0.0701685752393343,1.4858480543517,602.329881674229
-"45","Pseudomonas spp._10_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",139.400119586605,0.0328574680887666,0.607630931288659,638.734375850734
-"841","Pseudomonas spp._10_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",139.400119586605,0.0818342726421313,1.27405918648117,402.62529421126
-"95","Pseudomonas spp._10_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",139.400119586605,0.0282267150282789,1.22207595864597,376.746765471329
-"73","Pseudomonas spp._15_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",112.708361910114,0.0650712509311477,1.014438311017,1337.73974860592
-"66","Pseudomonas spp._20_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",73.6409643097961,0.174402652581301,1.99422242142731,914.587733101801
-"4","Pseudomonas spp._2_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",140.968917515356,0.029172970439302,1.56018719614423,2868.42014201436
-"98","Pseudomonas spp._4_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",86.243910597174,0.0282447354190289,23.1639302113553,954.61473607261
-"9","Pseudomonas spp._7_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",133.514242774962,0.0607927688412576,0.982608237204939,944.198527101127
-"601","Pseudomonas spp._10_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",164.121976078076,0.0439275756253707,1.19467598751619,4750.84294433238
-"701","Pseudomonas spp._15_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",186.136040888892,0.0755386042278705,0.822316954962791,6722.1996788696
-"14","Pseudomonas spp._20_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",101.56385353871,0.172196440233178,0.766824842096245,4177.1764540696
-"661","Aerobic Psychotropic._2_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",76.8981451866294,0.0123423810017589,0.691655665106448,840.753298389209
-"971","Aerobic Psychotropic._4_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",85.362199294165,0.0344947657802077,8.25554271289338,841.325547076307
-"23","Aerobic Psychotropic._7_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",202.131506763117,0.0583516537713867,1.37749878402735,3028.81568659217
-"561","Aerobic Psychotropic._10_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",131.562759038554,0.0738774663428539,1.17005736977266,350.163424227801
-"301","Aerobic Psychotropic._15_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",87.8501369901906,0.139359632731642,1.17511396607679,1271.25147595522
-"201","Aerobic Psychotropic._2_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",86.2899547448207,0.0163709341707537,1.1644761078508,505.606826471772
-"42","Aerobic Psychotropic._4_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",51.1204673692822,0.0211029606364002,4.56846104392405,590.77713258132
-"17","Aerobic Psychotropic._7_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",179.286912655707,0.0166641931549143,0.851543920306775,1099.75323754129
-"55","Aerobic Psychotropic._10_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",141.941412815075,0.0622936587476564,1.36564383529129,802.602460250484
-"951","Aerobic Psychotropic._15_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",61.7409842129274,0.0829125896101403,1.464320209123,287.828197404217
-"86","Aerobic Psychotropic._20_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",53.1743677884494,0.26840550938986,3.79315825336614,212.056434534137
-"371","Aerobic Psychotropic._2_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",97.7719029676377,0.0260444852377154,1.50356194068901,3017.25488937843
-"3","Aerobic Psychotropic._7_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",162.651639217597,0.0420755743201273,1.11743578240297,1419.92044121084
-"402","Aerobic Psychotropic._10_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",134.462655465932,0.0737364069384924,0.890664580675741,1163.74151694192
-"44","Aerobic Psychotropic._15_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",82.6987308210855,0.0975770565375889,1.46898208917511,829.78458373676
-"28","Aerobic Mesophilic._2_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",77.2381115345724,0.0189311688400541,0.611885654222169,372.96715396846
-"7","Aerobic Mesophilic._7_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",213.554747696245,0.0393457637159083,1.08916159425854,2702.82248908233
-"162","Aerobic Mesophilic._4_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",75.5632573310931,0.016734720103713,1.86905312602979,376.658279005331
-"403","Aerobic Mesophilic._10_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",110.670213023981,0.124620635425319,0.974195121279863,727.635592087233
-"622","Aerobic Mesophilic._15_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",113.093141459489,0.106540249320533,0.974021057844425,1615.67198928846
-"692","Aerobic Mesophilic._20_Raw Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",67.4366108746231,0.1043035449526,1.86476938090734,530.299112986321
-"991","Aerobic Mesophilic._2_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",52.8065385800726,0.016506685736144,1.54506004854577,429.696337407827
-"421","Aerobic Mesophilic._4_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",45.6204019735624,0.0383160536145997,2.49113007216852,791.598385909327
-"67","Aerobic Mesophilic._7_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",171.511537645634,0.0588386090285731,0.568553385420091,2982.61632773898
-"662","Aerobic Mesophilic._10_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",130.788436649704,0.0861949432775328,1.2383255489803,447.438218267912
-"133","Aerobic Mesophilic._15_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",68.7647902100978,0.124371348074986,1.1049380505543,426.222157559573
-"64","Aerobic Mesophilic._20_Salted Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",61.6049103769425,0.122213880470776,1.37421788587113,577.3746722586
-"873","Aerobic Mesophilic._4_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",125.17379196921,0.0260518992963002,0.994052077911208,15626.8241562269
-"541","Aerobic Mesophilic._7_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",236.741223097203,0.0859715957571965,1.22170357307727,7971.8222333423
-"411","Aerobic Mesophilic._15_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",78.5283865591417,0.189939932075295,1.03658215494888,3210.36864823931
-"342","Aerobic Mesophilic._20_Cooked Chicken Breast_Galarz, L.A., Fonseca, G.G. and Prentice, C., 2016. Predicting bacterial growth in raw, salted, and cooked chicken breast fillets during storage. Food Science and Technology International, 22(6), pp.461-474.",56.4301218513288,0.257297566853733,1.08517317692223,1704.56232385299
-"861","Spoilage_8_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",121.714586672037,1.89477445543122,64.2632251639901,13515.0062419577
-"93","Escherichia coli_8_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",67.8389656147945,0.396004694333938,18.4562713112996,572.041912724914
-"481","Spoilage_10_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",91.3431530007134,0.685551152080792,163.785283853817,12838.3564159811
-"79","Escherichia coli_10_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",88.6122760353663,1.41723245832816,69.9458511968133,4042.51726468235
-"482","Salmonella Typhimurium_10_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",54.9562380212225,0.325154729251435,31.3618354268615,563.362353990768
-"483","Spoilage_10_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",137.999901931373,0.34672221081237,179.448298562874,11650.9662443804
-"911","Escherichia coli_10_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",105.808092869626,0.183717889276789,59.8192636325582,2332.51602764603
-"122","Spoilage_12_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",118.447499378619,1.51804051905372,82.5242699082259,16282.5810111974
-"862","Escherichia coli_12_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",111.112710820433,0.496232807671301,69.1631636933271,8888.16870001035
-"641","Salmonella Typhimurium_12_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",80.6999121187431,0.517679830819724,33.4115488955686,1380.8955490546
-"352","Escherichia coli_12_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",82.0994123714914,0.120731823692692,33.7373707002934,459.246068604221
-"931","Salmonella Typhimurium_12_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",79.606698658864,0.591533309111064,60.2267659934272,239.395174985187
-"823","Spoilage_15_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",62.3213500121107,1.65973026736865,175.341038590711,14682.0612200756
-"531","Escherichia coli_15_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",62.3016750621172,2.39702993567292,19.8879552211286,5355.38842740012
-"22","Salmonella Typhimurium_15_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",64.7102421181353,2.41165241999249,79.9363508252048,4527.4662705584
-"92","Salmonella Typhimurium_15_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",64.7102421181353,1.79858294132571,85.902334425271,5080.09471906701
-"90","Escherichia coli_15_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",82.9740315180268,1.12823684067524,19.0638849797579,3299.52387938791
-"842","Salmonella Typhimurium_15_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",76.4343783984135,0.551858669803541,36.0703488266837,1631.4569707138
-"671","Spoilage_20_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",100.47253827925,1.65933743996822,156.173949839424,16876.6336745329
-"96","Escherichia coli_20_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",79.3223930501106,4.14603608476219,96.1137103858188,18127.2878977514
-"10","Salmonella Typhimurium_20_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",94.0950176040747,3.65710997556983,51.5115119915393,14280.5036724768
-"192","Spoilage_20_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",84.3837508682344,1.44938376930194,122.334538888336,7630.48171099993
-"901","Escherichia coli_20_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",103.276907284227,2.29101105840229,77.5086271480163,6749.73262684862
-"381","Spoilage_30_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",91.5340664787335,3.5408533775445,74.474693325197,5255.37427939123
-"883","Escherichia coli_30_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",118.126927729356,4.19466833528321,70.3216114780857,15586.6164830054
-"68","Salmonella Typhimurium_30_Vacuum Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",78.848785394362,6.2233585717209,39.3996904412925,6122.88724184119
-"18","Spoilage_30_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",85.3119418273703,4.41485177886004,65.8426822738949,7040.41599979713
-"382","Escherichia coli_30_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",107.328036507073,2.29141515774432,25.5192839228621,9565.36874422173
-"663","Salmonella Typhimurium_30_C02 Beef Striploins_Gill, C.O. and DeLacy, K.M., 1991. Growth of Escherichia coli and Salmonella typhimurium on high-pH beef packed under vacuum or carbon dioxide. International journal of food microbiology, 13(1), pp.21-30.",115.838623401578,3.42087119370567,76.7631233558956,7255.12307335385
-"952","Serratia marcescens_6_Pasteurised Skim Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",24.4891436252748,0.00105315737727605,0.959764268140001,337.896861865224
-"74","Serratia marcescens_6_UHT Skim Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",68.0013656038104,0.000844864067371275,0.758887058471345,481.649338672465
-"672","Serratia marcescens_10_Pasteurised Skim Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",9.83624672173926,0.00130673867145139,1.45419338612118,916.023982990067
-"181","Serratia marcescens_10_UHT Skim Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",4.91223929457537,0.00186166923586946,0.588709607498683,1105.80159691951
-"391","Serratia marcescens_10_UHT Skim Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",4.91223929457537,0.00162722697668682,1.00654053721628,945.666834273247
-"562","Serratia marcescens_10_UHT Skim Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",4.91223929457537,0.00276057036412009,0.559142319390176,1076.78261330669
-"372","Serratia marcescens_15_Pasteurised Skim Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",33.8449323368128,0.00400750780730223,27.0771144916389,2055.3043530564
-"801","Serratia marcescens_15_Pasteurised Skim Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",33.8449323368128,0.00369581483653241,17.8855337078072,3276.3472842404
-"85","Serratia marcescens_6_Pasteurised Full-fat Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",69.91487576873,0.000885889958340276,0.61361459759064,501.664337657421
-"71","Serratia marcescens_6_UHT Full-fat Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",34.5354388869231,0.00126414428120761,0.878797141624112,946.006108322727
-"422","Serratia marcescens_10_Pasteurised Full-fat Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",19.0364799701063,0.0017040017495347,0.802962754165356,1818.80039036616
-"61","Serratia marcescens_10_UHT Full-fat Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",12.6670334523215,0.00270860812091437,0.945866129875341,1351.70943565214
-"27","Serratia marcescens_10_UHT Full-fat Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",12.6670334523215,0.00365357947010977,1.27302646509126,2177.62784148656
-"78","Serratia marcescens_10_UHT Full-fat Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",12.6670334523215,0.0021534375830633,0.885787652810679,2150.61525325329
-"58","Serratia marcescens_15_UHT Full-fat Milk_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",75.6483962263648,0.00578302930053433,1.17961244825057,2828.30803001199
-"1001","Serratia marcescens_6_Pasteurised Double Cream_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",35.5386204842077,0.00112667504882051,0.959241520613432,789.510509838452
-"884","Serratia marcescens_6_UHT Double Cream_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",82.5812282043838,0.000753514616756108,1.19720241217874,484.070938472044
-"8","Serratia marcescens_10_UHT Double Cream_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",11.0146730513904,0.00301290090280276,1.3051265287213,1052.35501731809
-"611","Serratia marcescens_15_Pasteurised Double Cream_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",47.3060236558637,0.00791163003341453,0.846480030707152,1812.21164930555
-"932","Serratia marcescens_15_UHT Double Cream_Phillips, J.D. and Griffiths, M.W., 1987. The relation between temperature and growth of bacteria in dairy products. Food Microbiology, 4(2), pp.173-185.",82.2632618122598,0.00158792091484156,1.26217659266481,1868.20812202866
-"141","Arthrobacter sp. 77_0_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",178.211517295784,0.0127566001244944,2.40893199310158,350.655740812661
-"542","Arthrobacter sp. 77_7_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",144.61282160888,0.00742725508702782,2.17419285054748,338.53724422212
-"113","Arthrobacter sp. 77_20_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",68.9680599456237,0.0778445837083263,1.77386861370217,401.042156594241
-"32","Arthrobacter sp. 77_30_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",80.4694711431156,0.00453259498887706,2.99166215368569,315.62942444936
-"392","Arthrobacter sp. 77_37_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",-92.9325431402635,5.51990294678186e-05,2.55537260315099,2.40430320973267
-"353","Arthrobacter sp. 88_0_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",81.8415451514723,0.00772753599226149,3.61832851981332,90.3118767132209
-"43","Arthrobacter sp. 88_7_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",62.8473821111548,0.00750018204836458,1.63264584397968,233.213716610007
-"902","Arthrobacter sp. 88_30_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",142.721472346279,0.0114175113903461,1.92331489085826,729.227936342575
-"933","Arthrobacter sp. 88_37_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",-85.02344950226,9.69829223089226e-06,1.91347167806014,2.11419064354126
-"892","Arthrobacter sp. 62_0_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",165.991629234196,0.0125566910150966,3.43030171041049,492.500440473202
-"46","Arthrobacter sp. 62_7_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",129.107388826323,0.0109305342960342,4.09552648354162,871.350207770359
-"311","Arthrobacter sp. 62_20_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",91.955800791967,0.0544199701312338,2.12854275741142,360.327551044559
-"461","Arthrobacter sp. 62_30_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",-47.7424235588184,2.08519423977969e-05,2.4989862735628,2.74367115680391
-"1002","Arthrobacter sp. 62_37_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",-90.0191527765692,2.55694218273929e-05,2.67506020641651,2.23274595595667
-"134","Arthrobacter aurescens_0_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",117.839413487255,0.0112456672603329,2.0364238303509,149.501782221352
-"59","Arthrobacter aurescens_7_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",109.161596301889,0.0108858304090647,2.3566494113582,660.617524530673
-"423","Arthrobacter aurescens_20_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",75.9589523761188,0.0160019052763773,1.70726663100102,270.08966908913
-"702","Arthrobacter aurescens_30_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",52.8072393482241,0.0687996793927105,3.24575966032415,530.403014655779
-"912","Arthrobacter aurescens_37_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",37.9071426272238,0.0266687512757115,3.86340892594781,33.7498359945229
-"373","Arthrobacter citreus_7_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",82.8426479311746,0.0175485827206442,1.80287234957856,121.876696656178
-"182","Arthrobacter citreus_20_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",77.1834730803754,0.01262002905871,2.75356797454815,528.147405721755
-"851","Arthrobacter citreus_30_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",77.4565257647521,0.014206562026686,3.51247900004036,203.214097135578
-"171","Arthrobacter citreus_37_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",97.3652148168345,0.00506984217960607,2.19781961527374,285.354110171744
-"563","Arthrobacter globiformis_0_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",-117.012935374966,2.40129792446617e-06,3.96917634441219,1.45170490470249
-"321","Arthrobacter globiformis_7_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",110.488217557712,0.00382642729992877,2.22443031343089,98.7060356605628
-"863","Arthrobacter globiformis_20_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",66.8183326940966,0.00644429472417951,3.3996756915471,76.5279194139338
-"893","Arthrobacter globiformis_30_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",61.0385858209308,0.0120116410887521,3.93141124565845,101.161764438994
-"703","Arthrobacter simplex_0_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",-103.893021790867,6.34431256297681e-06,2.79877195861686,3.82785348812243
-"354","Arthrobacter simplex_7_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",122.368960253549,0.0305892351687273,3.96800903644668,461.624095855614
-"193","Arthrobacter simplex_20_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",73.6535545647595,0.0422672349826902,3.40511387442357,564.99793316839
-"731","Arthrobacter simplex_30_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",84.2777781294695,0.00213546327474839,1.54319528791932,211.798014693564
-"412","Arthrobacter simplex_37_TGE agar_Roth, N.G. and Wheaton, R.B., 1962. Continuity of psychrophilic and mesophilic growth characteristics in the genus Arthrobacter. Journal of bacteriology, 83(3), pp.551-555.",69.443261305559,0.00137909560773749,2.40505472668882,309.988863881832
-"543","Lactobacillus plantarum_8_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",135.866736975817,0.0159526870939948,25.8314371119279,860.353708467563
-"333","Lactobacillus plantarum_12_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",596.757663742726,0.0939974403031448,81.2476795788173,1837571643.39644
-"824","Lactobacillus plantarum_16_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",754.470255970541,0.241456602289761,98.4802406752613,3155184559.87951
-"49","Lactobacillus plantarum_20_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",660.28119900227,0.402651065246885,151.379744863124,5043689117.39826
-"413","Lactobacillus plantarum_30_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",569.005823763594,0.50011293639901,70.6152465465904,7427961276.49272
-"581","Weissella viridescens_4_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",122.033906024378,0.0180397492425484,21.0415422858747,77279.1302798718
-"711","Weissella viridescens_8_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",709.493366600152,0.0479697096028652,58.1938038154046,297147040.658758
-"281","Weissella viridescens_12_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",556.120133435452,0.194902959433792,35.3140418066414,1061913927.57889
-"462","Weissella viridescens_16_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",699.246120659024,0.206078269544354,34.9129932141772,1890747457.5354
-"383","Weissella viridescens_20_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",603.703062039289,0.280335320291233,45.5403417208556,1303720805.65989
-"491","Weissella viridescens_30_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",564.853328730449,0.462288694329532,54.0129505080244,1120394868.233
-"83","Lactobacillus sakei_4_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",167.893324992601,0.0203659180385946,31.1488335817789,26333.9527001295
-"664","Lactobacillus sakei_8_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",658.055335969515,0.0476854135642435,54.4486446420008,205908032.545997
-"393","Lactobacillus sakei_12_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",530.996886946684,0.0744966317032585,66.4951708690678,583081932.986579
-"21","Lactobacillus sakei_16_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",573.498360379319,0.149682011135686,69.135687685687,2493704958.16906
-"355","Lactobacillus sakei_20_MRS broth_Silva, A.P.R.D., Longhi, D.A., Dalcanton, F. and Aragão, G.M.F.D., 2018. Modelling the growth of lactic acid bacteria at different temperatures. Brazilian Archives of Biology and Technology, 61.",526.094911175187,0.32007261992928,163.619831702698,1189146464.002
-"51","Oscillatoria agardhii Strain 97_15_Z8_Sivonen, K., 1990. Effects of light, temperature, nitrate, orthophosphate, and bacteria on growth of and hepatotoxin production by Oscillatoria agardhii strains. Appl. Environ. Microbiol., 56(9), pp.2658-2666.",16.4193815297876,0.00452343416470143,1.2980623287358,4.32918154058013
-"65","Oscillatoria agardhii Strain 97_20_Z8_Sivonen, K., 1990. Effects of light, temperature, nitrate, orthophosphate, and bacteria on growth of and hepatotoxin production by Oscillatoria agardhii strains. Appl. Environ. Microbiol., 56(9), pp.2658-2666.",12.2862116427405,0.00538238229854372,1.3736005189546,6.0563306165507
-"825","Oscillatoria agardhii Strain 97_25_Z8_Sivonen, K., 1990. Effects of light, temperature, nitrate, orthophosphate, and bacteria on growth of and hepatotoxin production by Oscillatoria agardhii strains. Appl. Environ. Microbiol., 56(9), pp.2658-2666.",11.7884368543727,0.00590257722269359,1.22733338723496,7.43277254568878
-"172","Oscillatoria agardhii Strain 97_30_Z8_Sivonen, K., 1990. Effects of light, temperature, nitrate, orthophosphate, and bacteria on growth of and hepatotoxin production by Oscillatoria agardhii strains. Appl. Environ. Microbiol., 56(9), pp.2658-2666.",11.0247900397478,0.00163243321190216,0.972239513677754,3.20759407578857
-"441","Oscillatoria agardhii StrainCYA 128_15_Z8_Sivonen, K., 1990. Effects of light, temperature, nitrate, orthophosphate, and bacteria on growth of and hepatotoxin production by Oscillatoria agardhii strains. Appl. Environ. Microbiol., 56(9), pp.2658-2666.",7.99440607649855,0.000214169083987226,2.44496402540749,3.37019529779075
-"802","Oscillatoria agardhii StrainCYA 128_20_Z8_Sivonen, K., 1990. Effects of light, temperature, nitrate, orthophosphate, and bacteria on growth of and hepatotoxin production by Oscillatoria agardhii strains. Appl. Environ. Microbiol., 56(9), pp.2658-2666.",16.82969045419,0.00302131770841619,2.19454633709426,5.54948259377701
-"173","Oscillatoria agardhii StrainCYA 128_25_Z8_Sivonen, K., 1990. Effects of light, temperature, nitrate, orthophosphate, and bacteria on growth of and hepatotoxin production by Oscillatoria agardhii strains. Appl. Environ. Microbiol., 56(9), pp.2658-2666.",4.285137943113,0.00135702504402102,1.27086820311157,7.26448991922527
-"1003","Oscillatoria agardhii StrainCYA 128_30_Z8_Sivonen, K., 1990. Effects of light, temperature, nitrate, orthophosphate, and bacteria on growth of and hepatotoxin production by Oscillatoria agardhii strains. Appl. Environ. Microbiol., 56(9), pp.2658-2666.",10.2636905482859,0.000679498689575207,2.35110573089227,3.7454691713341
-"424","Pseudomonas sp._15_APT Broth_Stannard, C.J., Williams, A.P. and Gibbs, P.A., 1985. Temperature/growth relationships for psychrotrophic food-spoilage bacteria. Food Microbiology, 2(2), pp.115-122.",224.104204986936,0.0971804660480958,1.10345287784003,700984.688187363
-"602","Pseudomonas sp._12_APT Broth_Stannard, C.J., Williams, A.P. and Gibbs, P.A., 1985. Temperature/growth relationships for psychrotrophic food-spoilage bacteria. Food Microbiology, 2(2), pp.115-122.",231.848949887075,0.333316705567956,0.613079400226162,781784.201876363
-"36","Pseudomonas sp._2_APT Broth_Stannard, C.J., Williams, A.P. and Gibbs, P.A., 1985. Temperature/growth relationships for psychrotrophic food-spoilage bacteria. Food Microbiology, 2(2), pp.115-122.",154.312880132097,0.0190628189043599,0.993581897190775,805661.324017235
-"252","Lactobaciulus plantarum_10_MRS_Zwietering, M.H., De Wit, J.C., Cuppers, H.G.A.M. and Van't Riet, K., 1994. Modeling of bacterial growth with shifts in temperature. Appl. Environ. Microbiol., 60(1), pp.204-213.",2417.27092401003,0.0215914769348837,1.07897521182801,9926.74570757143
-"551","Lactobaciulus plantarum_15_MRS_Zwietering, M.H., De Wit, J.C., Cuppers, H.G.A.M. and Van't Riet, K., 1994. Modeling of bacterial growth with shifts in temperature. Appl. Environ. Microbiol., 60(1), pp.204-213.",1614.87504551367,0.100228604220918,1.7704585655556,23104.2216321804
-"642","Lactobaciulus plantarum_20_MRS_Zwietering, M.H., De Wit, J.C., Cuppers, H.G.A.M. and Van't Riet, K., 1994. Modeling of bacterial growth with shifts in temperature. Appl. Environ. Microbiol., 60(1), pp.204-213.",1915.47624560321,0.302745436243626,1.48946544019732,25907.3611587119
-"961","Lactobaciulus plantarum_25_MRS_Zwietering, M.H., De Wit, J.C., Cuppers, H.G.A.M. and Van't Riet, K., 1994. Modeling of bacterial growth with shifts in temperature. Appl. Environ. Microbiol., 60(1), pp.204-213.",1658.08626125047,0.146007151373676,2.4323890227762,36772.8448527545
+"","ID","AIC","N_0","r_max","K"
+"417",1,-186.268695113196,0.000546494970465764,969.960608145171,852.246495769273
+"245",2,-112.764226137105,0.000254585153677345,934.52676943827,784.513376943926
+"565",3,-76.1836563957731,-0.000149428592240519,329.734367559998,880.570949537758
+"631",4,-40.2259734216146,0.00112070741761537,948.473458709883,525.087770846242
+"856",5,-278.849590611135,-5.34071294205293e-07,1064.53230523294,4.42179399555496
+"196",6,-161.290273033665,2.94794820686909e-05,739.501774016426,111.088975736441
+"489",7,-105.243129156551,0.000321067868445992,621.078593920079,37.9665286215698
+"258",8,-146.184348715202,0.00102347341865306,1063.24616159229,169.731042932865
+"369",9,-205.507419158672,0.000418412996030743,1292.18385057466,178.245180194077
+"318",10,-213.211274397119,0.000475417883185291,244.696207570342,200.504124244443
+"425",11,-133.137316044375,0.000135871323282311,1038.10961376171,213.189547033348
+"216",12,-139.014512170734,0.00136490076585427,563.468305426273,729.889300956677
+"345",13,-117.754906940979,0.00036486594585584,1236.8478450772,609.17397278531
+"776",14,-249.289076564208,-1.1655194140474e-06,493.161101950681,506.963789566598
+"899",15,-209.073438326706,-1.36179710093275e-10,18.9362545813476,653.619056310129
+"641",16,-80.5038749785886,0.00151684112971095,847.710516921051,1222.83651277249
+"152",17,-261.105722400421,-2.52874208029073e-05,240.763101389984,8.74801633042474
+"223",18,-245.565974162075,0.000104064468381541,449.153336753343,161.548765323581
+"737",19,-168.110206215554,0.000160656500410234,248.137060498249,161.878223630521
+"572",20,-250.186203506446,-4.35588535285866e-05,350.08007444182,24.074630058002
+"419",21,-268.261797443046,5.05135347299839e-06,936.858264877104,885.555725943518
+"126",22,-173.299806265789,0.000936823170327811,723.518899240833,1235.59248957957
+"755",23,-96.6099321715768,0.000253531314900546,737.723288592422,69.4330731103586
+"75",24,-109.111815463856,-0.000188292122136456,1221.97716711731,1027.27021174359
+"317",25,-14.6027020697976,-0.00158349856502249,408.329550963513,380.815176074266
+"1961",26,-8.44390856610121,-0.00829559451246134,135.046660721768,136.895260500236
+"237",27,-84.8692810678757,0.000360293972891672,211.076051584682,24.2954545454816
+"550",28,-28.7548880950505,5.09023745932329e-05,553.871983835725,741.858111740521
+"332",29,-67.5146372397463,-0.000949060515896638,832.959960775521,66.7866133566835
+"864",30,-112.65751409887,-0.000135986685869336,294.755168143927,954.718808488306
+"80",31,-93.8176662580763,-0.000848196843696705,545.061188457756,6.84891788425346
+"640",32,-82.4730517805001,-0.000378010038011674,1162.02287301868,810.753834578006
+"634",33,-72.1508545833832,-0.000522104887574396,349.57142365,413.959164371577
+"644",34,-51.0144712760862,-0.000368056477885613,510.210344433639,506.476121011446
+"591",35,-118.3727865824,-0.000128468438620813,1319.60838798075,969.437451848866
+"10",36,-23.9866653704914,-0.00258139606733009,1157.33278980786,766.235054318583
+"823",37,-44.4966590259748,-0.000241467060018904,638.572302636611,159.584185029509
+"178",38,-19.7507538766721,-0.00221333989089809,904.228316872887,1058.8226721457
+"705",39,-15.6261363628949,-0.001305423850116,549.497389838216,508.160413701882
+"537",40,-89.2280332427688,-8.84158303295846e-05,1119.75080928189,1013.41243147034
+"901",41,-96.1459903131045,0.000118663502430802,729.33794627954,413.093877521124
+"412",42,-127.786803406486,-0.00024158301092942,1114.97470846931,159.541073520147
+"614",43,-128.855531750656,0.00133025621415721,1062.03562627229,293.377388127838
+"273",44,-26.9802545170856,0.00118908110413506,146.482592766339,117.232813640955
+"268",45,-52.7212298763975,0.00553424610514901,1094.57426296115,884.489936221477
+"76",46,-49.8247880378436,0.00888189121727524,1094.18400760675,537.64079876718
+"140",47,-14.3897221692278,0.00509468110157999,761.963619007669,1020.46120921734
+"690",48,-6.79504190780909,0.0108272029288833,645.655309315649,1302.10969596266
+"895",49,-73.8449245066659,0.00199364278948719,1115.21310232374,340.795855582648
+"516",50,-29.4043091814639,0.000671655919812618,1196.07845195932,73.9281091605159
+"758",51,-43.3206844727427,0.0027459132439363,1046.76434763782,715.125227369748
+"NA",NA,NA,NA,NA,NA
+"514",53,-45.9079314924844,-0.00105445390935944,978.27426215048,170.927341470099
+"777",54,-28.7300493272468,0.0134133162698443,878.093246719034,392.531966681948
+"409",55,-56.0202813196401,0.00035528772354959,253.097757572907,268.420508080741
+"2161",56,-66.4860399180911,0.00458695470625083,1042.96025575795,384.885559336805
+"294",57,-23.0313249916292,0.00121310899129893,1097.39912093313,86.3048400868332
+"839",58,-14.7229556088065,0.000108419447509096,381.124491180018,11.8391663671064
+"671",59,-24.847455098182,0.0147101821640501,631.297571313496,551.744203628806
+"47",60,-19.0648598497363,-0.00617312285230792,1241.72315458363,417.518820616557
+"976",61,-29.1400529052917,0.00174664148895073,1281.9621924709,1118.53272897752
+"324",62,-70.9353062867132,0.000764536402396671,912.714979016198,194.368838622772
+"616",63,-56.1469122014699,0.000515185947913896,966.245684734568,385.876293815029
+"171",64,-29.5478362340956,0.00156316214298296,528.245853559758,881.972779168984
+"59",65,-93.4855264408709,0.00286910843062924,664.033109642189,155.779619181807
+"764",66,-33.340704417232,0.00205682789567372,733.431005909207,319.080616288132
+"NA1",NA,NA,NA,NA,NA
+"756",68,-27.8452176936647,0.00160733308277186,609.016749741344,1023.34409089777
+"58",69,-14.1750412316606,-0.0058602499837931,779.151331891008,256.286737871443
+"534",70,-4.26123372356709,-0.012115617654896,999.459428686155,467.769707916227
+"377",71,-84.0701064216954,0.00118921283537748,333.137551942222,50.6969466254111
+"NA2",NA,NA,NA,NA,NA
+"179",73,-114.666952302552,0.00024411800062527,1233.9387555359,297.801897355915
+"459",74,-53.520345675319,0.000655563715770761,454.756450283068,55.8455976718057
+"NA3",NA,NA,NA,NA,NA
+"404",76,-26.3691517683657,0.00159656662140827,1153.30607806922,842.580364423759
+"NA4",NA,NA,NA,NA,NA
+"480",78,-67.6776039125774,-0.000556345785770541,530.02719074343,612.300744480905
+"973",79,-35.0195801081527,0,404.893813578072,686.54638493094
+"NA5",NA,NA,NA,NA,NA
+"475",81,-26.3388817116033,0.00161663107126588,1325.6521825867,79.9859485116487
+"NA6",NA,NA,NA,NA,NA
+"NA7",NA,NA,NA,NA,NA
+"31",84,-73.6950212321983,0.00044362340782747,224.957671753108,104.760659458858
+"919",85,-70.4382918279843,0.000138406254474485,764.349157399819,529.929711779553
+"NA8",NA,NA,NA,NA,NA
+"9011",87,-77.7567704035973,0.00740221693897048,771.870559235146,223.588074797161
+"604",88,-47.1826966394644,0.00333132926325743,145.835060234394,280.971772187376
+"526",89,977.362480916411,0.371769932953469,1.59245577501133,18544.5218977477
+"226",90,980.60820455925,0.167027515925023,755.316254112165,32782.4830994511
+"724",91,1156.35295081956,-1.58204920251419,2688.28341878108,10051.6926334444
+"615",92,1194.00340066332,0.109325073821867,1571.2312899967,22531.5322138207
+"441",93,972.779600830939,0.359738409716911,446.911399939436,7133.92884623315
+"410",94,99.3232185098369,0.0478122471107344,230.435232387367,111.991104150882
+"809",95,81.4843100946331,0.146328570555253,1327.48522561105,17.2338541937226
+"386",96,198.545846373371,0.851397961315683,920.519042518982,1386.10727562732
+"813",97,153.714402514593,0.76609064872282,437.944952545432,1007.77609552612
+"531",98,99.1857950197172,0.343900456300232,204.872480130059,167.038271651288
+"4411",99,111.218699172784,0.34749756035606,307.5999464202,287.284830310143
+"541",100,99.9038478609759,0.118352215888665,475.189533518981,465.688288306222
+"624",101,75.4883340669688,0.0244200486983857,33.1813601015431,1962.76500165483
+"3171",102,195.718848369219,0.184587865129883,31.6496541005535,2814.59605244336
+"57",103,187.367050402934,1.61392247395267,910.086179681573,1257.51969119085
+"436",104,176.468515999189,2.38574221951258,592.458163533068,2065.81437218238
+"657",105,138.012257472211,0.052698710254849,205.660814038974,6099.55268654663
+"681",106,66.8063781449826,0.11714251789204,954.632005369226,998.095232380082
+"668",107,83.1233191028395,0.0893552219187939,483.842031008237,1008.40872364833
+"502",108,130.725277476239,0.00553748473602483,505.962398913333,416.814283994571
+"783",109,115.440538418118,0.536392294088162,1249.38623696698,55.8071215448845
+"646",110,144.208547771484,0.00156150402669998,1340.72259973688,56.2314876788557
+"63",111,121.131758010302,0.526848801629656,133.923883814496,65.7902846859337
+"473",112,130.294529245589,0.169637959582595,13.9227167858169,1140.43759731405
+"590",113,97.954046638388,0.187833261020197,300.816892867547,1698.84677765227
+"989",114,145.391572421904,0.0014745383351326,120.803322331301,1879.87501353364
+"627",115,184.068820296446,0.0229784559774604,854.662367485936,1589.15227308312
+"28",116,185.931769622638,1.62463048235719,500.086663078571,2823.61365870688
+"726",117,133.268467740309,0.0250749919142316,736.436649845873,6847.20336137986
+"944",118,120.287714867406,0.247425328254875,971.031624743594,1073.04440904769
+"453",119,76.7357901538491,0.206170161923155,594.52493555899,1439.20632024105
+"751",120,130.081476260185,0.0609521400386147,386.520558185988,1329.15572311134
+"25",121,153.986222534524,0.362583254559578,618.191173979772,1472.50679995997
+"685",122,143.404943489285,0.0184820339379681,872.923862818332,126.107474273551
+"477",123,95.225617890396,0.0330988158806473,709.237888045934,629.192616311251
+"116",124,142.443381166256,0.00415952656531009,95.9508034377566,3097.05789710547
+"511",125,89.4116309870891,0.0983332135579523,150.939715800161,1049.8704670759
+"580",126,139.786335976429,0.0342492644517131,428.724927838201,427.446775447038
+"555",127,167.381530892431,0.0728560760746882,81.6228825589162,160.234811717099
+"7371",128,192.224999978781,0.0610729944659806,597.984666112715,2802.70828768175
+"293",129,131.852538676121,0.00605783376787106,682.595330559804,3200.20296556925
+"462",130,119.233806508915,0.0257335390882437,302.785135635179,295.591047235931
+"151",131,89.3534622307126,0.123978135508985,230.120983656836,951.553178622882
+"60",132,206.325963588986,0.13417693450818,332.647377740049,5821.84508638581
+"399",133,140.224663436123,0.083052139091342,675.705630668425,1776.90570850135
+"844",134,144.361109145814,0.0046439362095912,79.428718849482,4237.95978867209
+"993",135,102.250740283624,1.31517621390344,738.641127628644,102.707356821956
+"70",136,99.1933666368544,0.347102117044999,1010.3409117537,73.6969341784777
+"623",137,76.0624961346142,0.0273441831615157,787.940038449493,970.284866350454
+"518",138,199.770607604752,0.000305318837803758,1156.51604557543,3257.81174938033
+"493",139,151.00560860172,0.00134624836894741,215.894863432925,2394.08196979421
+"134",140,83.1107666774639,0.9265399642946,602.707789332555,44.0385504822655
+"840",141,67.5437214389499,8.59075403878258,1176.51600058091,158.229830814494
+"458",142,110.041988997618,0.00307550205561175,553.178682918194,288.111002903538
+"7561",143,111.556505664281,0.152628057194139,407.83121188339,1217.61054878385
+"885",144,193.875651451268,0.0128459086165122,900.271436101418,2985.92416959645
+"299",145,184.676888000998,1.09356512929804,486.875318712059,1776.50073943742
+"547",146,127.773252819031,0.000835782664230301,1217.57819486673,3567.59009732336
+"6161",147,109.857340224722,2.01195609920368,513.103807523632,49.0337944084538
+"492",148,110.322620324373,0.0264632162336686,383.681592358296,19.4527902795318
+"855",149,221.71509789059,0.0222278459431746,624.34801511081,4770.76872157038
+"576",150,88.9492955398054,0.190738003377224,694.384875166313,1641.80455138595
+"8951",151,118.566969836379,0.0937999865333115,585.237969742294,579.731311602361
+"704",152,119.30906382852,0.102423235072317,843.900715579847,1033.39006934172
+"182",153,93.1004364600485,1.56205547988093,1080.04050271579,133.824566869717
+"78",154,115.019053901184,0.0411126475008135,93.9901418122753,9.08360311141189
+"295",155,96.9168345373138,0.0238489571128764,587.665742499958,728.535821867362
+"3181",156,188.524869571303,0.00349011219199106,766.229011379659,639.609170784639
+"5261",157,144.493304352908,3.48640586141718,1122.7656329417,206.893665244403
+"6231",158,72.8336614532931,0.853636103169923,1063.82095333571,118.823832596041
+"593",159,83.8141019702646,0.782960502759993,340.895602699897,322.580230867649
+"680",160,122.356880252158,0.0030290888613345,946.785050453347,294.74973981251
+"970",161,125.173791969419,1.0244116132751,1258.71150513549,23235.4135114066
+"819",162,217.22986556227,0.00405677826515044,109.316201682939,5446.60887071127
+"180",163,178.806543104393,0.0461646099266369,364.504459047763,3048.27870971091
+"340",164,131.690497616488,0.341261421734218,864.177469508588,1405.47152835044
+"612",165,136.592285513488,0.427323973442254,608.438660635437,3601.8177327847
+"211",166,120.322321801853,4.59843096599278,1118.98298788354,8918.48625981815
+"56",167,66.9819073230601,14.0478323503107,778.360341235929,654.726304533418
+"243",168,53.4350594361843,14.6025516393484,657.828159740476,611.065401478528
+"714",169,93.0229183231654,13.6153950739289,73.6398525879145,8178.9558094308
+"741",170,88.5966116143263,111.464674242417,1325.54935164931,2274.41272134796
+"6041",171,54.5278881724458,27.0599656291543,653.283007073567,377.627797111674
+"368",172,143.392369139552,0.192130224348324,147.498586205001,23404.7066173351
+"868",173,107.690702951958,55.5949004730924,492.6451321888,465.16326994594
+"5021",174,121.721331907486,36.9093911685377,294.652942351867,7601.99396461473
+"3451",175,137.408577514985,102.205589742664,1297.41433359026,8518.71717259749
+"610",176,112.122784701173,37.5480735609747,747.756315600725,1625.12796221277
+"164",177,139.757400530941,10.4538654046353,1506.95891685946,11129.3876437265
+"635",178,59.6585493552513,-0.0626773972601522,591.249901760017,1807.62641050123
+"231",179,83.17393896134,-1.99407328266704,624.592562432893,1779.62723862774
+"309",180,104.107091934149,140.082320397239,1587.29354506167,3562.3200331683
+"843",181,77.7005081189416,170.16150335886,897.214772236324,6626.16173774888
+"729",182,83.4238802324044,101.23592676963,549.951122669601,4612.30602452991
+"520",183,135.548708599465,39.4385164242539,1403.23734178422,626.386706465819
+"2",184,129.315400030371,52.7003865627924,653.283242964744,2182.74606927324
+"739",185,120.463966928692,110.394886886067,552.372909592811,2325.52935153148
+"463",186,103.062526832481,19.0977008204006,310.251396707308,3306.9919218062
+"808",187,97.1989562881896,328.014008291979,1019.31202020169,3210.82600106798
+"538",188,101.105431579082,49.8463426894415,902.255896859232,6811.97184975754
+"198",189,113.84957166858,44.1721737150054,626.034257219349,3980.10136953491
+"272",190,104.909183405233,279.650443922489,1491.07262749603,11719.1410735527
+"338",191,116.750853691273,291.623322740059,755.077523705186,3963.7050031244
+"636",192,86.637338688992,24.5451238581912,1066.01010404965,6474.18537189799
+"9731",193,123.153442146624,237.653025526769,479.200780762425,18518.8105121694
+"8431",194,94.0072578623649,50.1924119136946,1186.61501309535,2085.74192559776
+"46",195,132.450437299563,124.885351611357,124.761220244628,2415.17935138825
+"797",196,111.475776664331,145.909349261891,594.380741792316,13944.7548893255
+"139",197,119.236360476385,435.885342442117,824.927008952594,8397.35133138141
+"994",198,42.4520123990049,0.00972016345053634,341.243724368914,262.203433159975
+"471",199,71.0384054488235,0.0090767633358026,190.828831575272,18.225550222845
+"656",200,70.3223722998458,0.0732436416394022,781.505664867742,1581.25605772917
+"793",201,43.0755263019021,0.00709597133528562,1010.87979722594,87.7061499209784
+"253",202,59.3673442724536,0.00372016584012806,26.9484893951192,1985.78799455177
+"566",203,69.7580555348871,0.138766228595554,196.578052646397,1166.48041187579
+"717",204,77.9930433095813,0.00188655812898181,983.007674130263,162.25223423938
+"817",205,90.1963692694411,0.0296315600446891,500.984466976898,490.674788480301
+"505",206,83.4770724651312,0.076991222609204,885.652628812548,1228.41191694356
+"632",207,72.7579225763795,0.0545879111239179,1085.82492403359,4638.543289555
+"692",208,89.7866099208438,0.121397075800701,3.10848313505864,3547.64528209147
+"280",209,84.9575004068044,0.162736407280494,1329.48229621445,5549.87996284341
+"112",210,81.1006804085188,0.000385973525434869,1052.08760763526,2472.21401892617
+"912",211,100.072134963407,0.0136796555539867,127.632275514528,113.493461077364
+"597",212,63.1968014393113,0.115392433837446,615.079635295174,146.380905144933
+"558",213,69.8241845236633,0.1136305202188,123.755474464989,4170.24379401656
+"3172",214,84.6032650078816,0.105239125126222,1116.13097819936,1482.56439349041
+"827",215,89.676415844508,0.17764649013166,941.729564638099,2741.3066764513
+"5501",216,189.515631373673,0.0182448960571529,130.441916255369,1783.82786745267
+"7171",217,151.084094473957,0.0254885796239467,960.12855025602,1858.88437447891
+"352",218,75.745800664807,1.12035601288747,1058.06709916007,1304.19346150939
+"7971",219,100.229327678194,1.11519822408978,783.977221241944,713.742169773882
+"71",220,-92.9384117855204,-6.45611197290067e-05,14.5887083500279,20.5930293913844
+"1000",221,112.12999437016,0.00392024142793853,403.196914899716,1371.57743684166
+"285",222,78.654818868523,1.40030576251141,1033.17669503796,1129.92221332375
+"652",223,198.273664638167,-0.752682111185763,999.740211490698,2633.0770442228
+"48",224,144.145504620045,0.292952936486036,789.515401219186,1817.64162124983
+"448",225,-85.0202740281403,0.000536088396299742,997.859724425562,880.929454088234
+"722",226,178.397474153752,0.138768066298431,918.29284079276,24.3940196920846
+"349",227,150.154918213745,1.18469265639006,1294.63609296448,732.776414408021
+"344",228,119.08737613811,1.49922144675119,809.902242201515,980.8164607538
+"120",229,-47.7434588968829,0.000182280581996333,1202.1931475063,694.859689974592
+"230",230,-84.6839652796055,-2.26348462782241e-07,471.547496434546,468.479998890318
+"962",231,118.787445973957,0.00607322508851902,1125.17102921967,116.165828503776
+"5022",232,124.434973445908,1.94832242453996,488.676676063546,451.036548940524
+"175",233,86.1564547355838,0.530681593382998,155.6619903249,813.57958490827
+"416",234,59.1564484062026,2.60288408192043,1069.47564676729,1067.19075763315
+"NA9",NA,NA,NA,NA,NA
+"546",236,91.1704656324805,0.000175707431511873,109.383506450222,42.4000191824274
+"1201",237,98.5236451287498,0.000340653829101278,806.833163284183,1389.00414311481
+"NA10",NA,NA,NA,NA,NA
+"254",239,81.9743624331769,1.88063558885411,1306.88736983141,916.215465322465
+"421",240,106.922921500399,0.357277184332554,542.486749396336,1685.48247881024
+"4731",241,-117.370517665686,-4.49116964756993e-05,384.742613288749,3.98471522132226
+"457",242,107.170520381896,0.324404034815821,1065.56899998055,1435.79101144781
+"NA11",NA,NA,NA,NA,NA
+"6241",244,66.0517780389466,0.968687567406898,589.311805647777,761.449532273973
+"125",245,51.4396265874951,0.254236486781253,333.848288778608,1217.34278469109
+"5971",246,-106.570741169999,0.000279746486342639,156.737635828,652.252689254776
+"8271",247,141.25733754221,0.231339839979639,321.424749749523,252.587880717255
+"277",248,71.8650774057472,1.14294623406376,1023.95195553038,1606.89939696227
+"633",249,77.0734586724935,0.234083648799818,373.88303229931,425.802910955089
+"NA12",NA,NA,NA,NA,NA
+"94",251,143.061135373091,0.238397400652236,1426.34487709221,2543.12577925916
+"NA13",NA,NA,NA,NA,NA
+"NA14",NA,NA,NA,NA,NA
+"NA15",NA,NA,NA,NA,NA
+"NA16",NA,NA,NA,NA,NA
+"867",256,145.655992669855,0.265382356046356,317.767080977259,202182.464276223
+"NA17",NA,NA,NA,NA,NA
+"NA18",NA,NA,NA,NA,NA
+"NA19",NA,NA,NA,NA,NA
+"NA20",NA,NA,NA,NA,NA
+"NA21",NA,NA,NA,NA,NA
+"21",262,166.866022316106,0.228833437957646,1032.71507598943,88945.7421662608
+"NA22",NA,NA,NA,NA,NA
+"NA23",NA,NA,NA,NA,NA
+"NA24",NA,NA,NA,NA,NA
+"NA25",NA,NA,NA,NA,NA
+"NA26",NA,NA,NA,NA,NA
+"683",268,17.3109619905737,0.0110269704561252,760.60996818989,112.721865856646
+"183",269,14.4202215487638,0.00247053378111145,1285.27408505398,962.573451170276
+"170",270,15.4658171389892,0.00663867274346195,1090.69858593391,439.229624709196
+"659",271,11.3929449466876,0.000989533638612015,1297.70742017363,697.004065824328
+"145",272,7.9506086004614,0.00228592731395643,738.672281890278,789.546188956948
+"269",273,17.3471211259292,0.00493471471783119,913.329586170483,332.325391833043
+"420",274,6.4858349925675,0.0106675992313153,242.630499144818,494.000926792467
+"4631",275,10.5048946342219,0.00713468217478215,1122.65513108612,1243.50515240383
+"350",276,254.547866041983,4.58688573431546,217.829612000221,1583024.71330851
+"212",277,229.024330068443,7.36318593071284,858.519774566959,254617.908847737
+"NA27",NA,NA,NA,NA,NA
+"NA28",NA,NA,NA,NA,NA
+"NA29",NA,NA,NA,NA,NA
+"NA30",NA,NA,NA,NA,NA
+"478",282,2414.17555954875,1.31099477817319,144.876241610048,2479.87976495642
+"643",283,1600.89710631516,0.136722518663811,1309.05659671841,10497.1833772607
+"824",284,1920.11282095333,6.73514972662624,39.1720672808297,41553.9137117858
+"166",285,1624.28562213362,5.93604379409641,1203.60018713766,9876.90031271648
