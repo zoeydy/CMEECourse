@@ -4,107 +4,75 @@ rm(list = ls())
 graphics.off()
 
 require(ggplot2)
-require(minpack.lm)
 
-# 1. define the model function for logistic and gompertz model
-model_logistic <- function(t, r_max, N_0, K){
-  return(N_0 * K * exp(r_max * t)/(K + N_0 * (exp(r_max * t) - 1)))
-}
-model_gompertz <- function(t, r_max, N_0, K, t_lag){
-  return(N_0 + (K-N_0)*exp(-exp((r_max*exp(1)*(t_lag-t))/((K-N_0)*log(10))+1)))
-}
+# 1. read the data, starting value and compare models
+StartLog <- read.csv("../results/logistic_Starting_Value.csv")
+StartGom <- read.csv("../results/gompertz_Starting_Value.csv")
 
-# 2. read the data and starting value grouped by ID 
-StartLog <- read.csv("../data/logistic_Starting_Value.csv")
-StartGom <- read.csv("../data/gompertz_Starting_Value.csv")
+PlotLog <- read.csv("../results/logistic_plot_points.csv")
+PlotGom <- read.csv("../results/gompertz_plot_points.csv")
+
 Data <- read.csv('../data/pop.csv')
+Data <- subset(Data, Data$PopBio > 0)
+Data$logN <- log(Data$PopBio)
+Data <- subset(Data[!is.na(Data$logN),])
+Data <- Data[order(Data[,2], Data[,4]),]
 
-# 3. for loop for comparing models in each ID
-AIC <- data.frame(ID = NULL, AIC_cub = NULL, AIC_log = NULL, AIC_gom = NULL, best_model = NULL)
-unq_id <-  unique(Data$ID)
-for (i in 1:length(unq_id)){
-  id <- unq_id[i]
-  if (!is.na(StartLog$ID)[i]){
-    #browser()
-    data <- subset(Data, Data$ID == id)
-    
-    # fit the cubic model(delete Infs or NAs in data)
-    fit_cub <- lm(logPopBio~poly(Time, 3), data)
-    AIC_cub <- AIC(fit_cub)
-    
-    # read starting value(logistic)
-    AIC_log <- StartLog[id,3]
-    r_max_log <- StartLog[id,4]
-    N_0_log <- StartLog[id,5]
-    K_log <-StartLog[id,6]
-    
-    # read starting value(gompertz)
-    AIC_gom <- StartGom[id,3]
-    r_max_gom <- StartGom[id,4]
-    N_0_gom <- StartGom[id,5]
-    K_gom <-StartGom[id,6]
-    t_lag_gom <- StartGom[id,7]
-    
-    # comparing and saving AIC value for each model 
-    AIC_ID <- data.frame(ID = id, AIC_cub = AIC_cub, AIC_log = AIC_log, AIC_gom = AIC_gom)
-    AIC_ID$best_model <- names(AIC_ID[,2:4])[which.min(apply(AIC_ID[,2:4],MARGIN=2,min))]
-    AIC_ID$min_AIC <- min(AIC_ID[,2:4])
-    #AIC_ID[c("Min_AIC", "Best_model")] <- t(apply(AIC_ID, 1, function(x) c(min(x), names(x[which.min(x)]))))
-    AIC <- rbind(AIC, AIC_ID) 
-    
-    ######## Plot ########
-    # generate the data frame contains expected points for each model
-    timepoint <- seq(min(data$Time), max(data$Time), len = 700)
-    # 1. Polynomial model
-    point_cub <- predict.lm(fit_cub, data.frame(Time = timepoint))
-    df1 <- data.frame(timepoint, point_cub)
-    df1$model <- "Polynomial Model"
-    names(df1) <- c('Time', 'LogPopBio', 'Model')
-    # 2. logistic model
-    logistic_point <-  log(
-      model_logistic(t = timepoint,
-                     r_max = r_max_log,
-                     K = K_log,
-                     N_0 = N_0_log)
-    )
-    df2 <- data.frame(timepoint, logistic_point)
-    df2$model <- "Logistic Model"
-    names(df2) <- c('Time', 'LogPopBio', 'Model')
-    # 3. gompertz model
-    gompertz_point <- model_gompertz(t = timepoint,
-                                     r_max = r_max_gom,
-                                     K = K_gom, 
-                                     N_0 = N_0_gom, 
-                                     t_lag = t_lag_gom)
-    df3 <- data.frame(timepoint, gompertz_point)
-    df3$model <- "Gompertz Model"
-    names(df3) <- c('Time', 'LogPopBio', 'Model')
-    # get the comparing data frame
-    model_frame <- rbind(df1,df2,df3)
-    # plot
-    FileName <- paste("../results/CompaPlot/plot_", i)
-    pdf(file = FileName)
-    print(
-      ggplot(data, aes(x = Time, y = logPopBio)) +
-        geom_point(size = 3) +
-        geom_line(data = model_frame, aes(x = Time, y = LogPopBio, col = Model), size = 1) +
-        theme_bw() +
-        theme(aspect.ratio = 1) +
-        labs(x = 'Time', y = 'Log(Abundance)')
-    )
-    graphics.off()
-   
+# 2. plot & get AIC of qubic model
+AIC_cub <- list()
+for (i in 1:285){
+  #browser()
+  id <- unique(Data$ID)[i]
+  data <- Data[Data$ID == i,]
+  
+  # qubic model
+  fit_lm <- lm(logN~poly(Time, 3), data)
+  aic <- AIC(fit_lm)
+  AIC_cub[[i]] <- c(id, aic)
+  
+  # plot
+  if (is.na(unique(subset(StartGom, StartGom$ID==id)$AIC))){
+    next
   }else{
-    AIC_ID <- data.frame(ID = i, AIC_cub = NA, AIC_log = NA, AIC_gom = NA,min_AIC=NA, best_model="No fitting")
-    AIC <- rbind(AIC, AIC_ID)
+    time2plot <- seq(min(data$Time), max(data$Time), length=1000)
+    plot_log <- data.frame(time = time2plot,logN = subset(PlotLog, PlotLog$ID==id)$pred_log, model = rep("logistic",1000))
+    plot_gom <- data.frame(time = time2plot,logN = subset(PlotGom, PlotGom$ID==id)$pred_gom, model = rep("gompertz",1000))
+    plot_cub <- data.frame(time = time2plot,logN = predict(fit_lm, newdata = list(Time = time2plot)), model = rep("cubic",1000))
+    plot_df <- rbind(plot_cub,plot_log, plot_gom)
+    
+    FileName <- paste("../results/ComparePlot/plot_", i)
+    pdf(file = FileName)
+    
+    AIClable <- paste("AIC_cubic:",aic,"\nAIC_logistic:",StartLog[i,"AIC"],"\nAIC_gompertz:",StartGom[i,"AIC"])
+    p <- ggplot(data, aes(x=Time, y=logN)) +
+      geom_point() +
+      ggtitle(paste0("Model comparison plot (ID = ",id, ")")) + 
+      annotate(geom = 'text', label = AIClable, x = Inf, y = -Inf, hjust = 1.1, vjust = -0.3) +
+      # stat_smooth(method = lm, level = 0.95, aes(colour="Cubic")) +
+      geom_line(data = plot_df ,aes(x = time, y = logN, color = model), size=1) +
+      scale_colour_manual(name="Model", values=c("darkblue", "darkred", "darkgreen"))
+    print(p)
+    graphics.off()
   }
- 
 }
 
-write.csv(AIC, "../results/AIC.csv")
-
+AIC_cub_df <- t(as.data.frame(AIC_cub))
+# write AIC data frame, delete rows with NA
+AIC_df <- data.frame(AIC_cub_df[,1],AIC_cub_df[,2],StartLog$AIC, StartGom$AIC)
+# delete na
+AIC_df <- AIC_df[complete.cases(AIC_df),]
+# compare and get better model
+colnames(AIC_df) <- c("ID","lm", "logistic", "gompertz")
+AIC_df$better_model <- colnames(AIC_df[,2:4])[apply(AIC_df[,2:4],1,which.min)]
+# save the compareson data
+write.csv(AIC_df, "../results/Compare_AIC.csv")
 # visualize comparison
-ggplot(AIC, aes(x = best_model)) + geom_bar(show.legend = TRUE)
-
-# plot point ?
+pdf(file = "../results/Model_comparasion")
+ggplot(AIC_df, aes(x = better_model)) + 
+  geom_bar() +
+  theme_bw() +
+  geom_text(stat='count', aes(label=..count..), vjust=-1) +
+  ggtitle("Which one is the better model (by comparing AIC)") +
+  theme(plot.title = element_text(size = 15, hjust = 0.5, face = "bold"))
+graphics.off()
 
