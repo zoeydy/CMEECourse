@@ -4,7 +4,7 @@
                 and angle to its top, using the trigonometric formula  """
 
 __appname__ = 'get_TreeHeight.py'
-__author__ = 'Zongyi Hu (zh2720@ic.ac.uk)'
+__author__ = 'Jane i.kotari20@imperial.co.uk'
 __version__ = '0.0.1'
 __date__ = 'Jan 2021'
 

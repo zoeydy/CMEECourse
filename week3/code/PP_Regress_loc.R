@@ -5,7 +5,7 @@ library(tidyverse)
 library(plyr)
 library(broom)
 
-MyDF <- read.csv("../Data/EcolArchives-E089-51-D1.csv")
+MyDF <- read.csv("../data/EcolArchives-E089-51-D1.csv")
 
 # Initialize a new dataframe
 PP_Regress_loc_Results_DF <- data.frame("predator_lifestage" = MyDF$Predator.lifestage,
@@ -24,4 +24,4 @@ PP_Regress_loc_Results <- ddply(PP_Regress_loc_Results_DF, .(location, predator_
 
 dplyr::glimpse(PP_Regress_loc_Results)
 
-write.csv(PP_Regress_loc_Results, file = "../Results/PP_Regress_loc_Results.csv")
+write.csv(PP_Regress_loc_Results, file = "../results/PP_Regress_loc_results.csv")
