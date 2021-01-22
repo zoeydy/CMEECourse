@@ -11,9 +11,17 @@ Need to ```install.packages("reshape2")``` when running DataWrang.R
 Need to ```install.packages('sqldf')``` when running SQLinR.R
 
 ## Language
+R python
 
-R
-
+# Using packages
+get_TreeHeight.py: numpy, sys, csv, pandas, os  
+GPDD_Data.R: maps
+plotLin.R: ggplot2
+PP_Regress_loc.R: ggplot2, tidyverse, plyr, broom
+PP_Regress.R:ggplot2
+SQLin.R: sqldf
+Vectorize1.py: numpy, sys, time
+Vectorize2.py: numpy, sys, time
 ## Author name and contact
 
 Zongyi Hu zh2720@ic.ac.uk

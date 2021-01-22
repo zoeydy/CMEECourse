@@ -4,7 +4,7 @@
                         to model the recruitment of stock in fisheries  """
 
 __appname__ = 'Vectorize2.py'
-__author__ = 'Jane i.kotari20@imperial.co.uk'
+__author__ = 'Zongyi Hu (zh2720@ic.ac.uk)'
 __version__ = '0.0.1'
 __date__ = 'Jan 2021'
 

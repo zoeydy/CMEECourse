@@ -20,7 +20,7 @@
 % \date{\small \today}
 \newcommand{\reporttitle}{The success of Gompertz models in fitting population growth data}
 \newcommand{\reportauthor}{Zongyi Hu}
-\newcommand{\wordcount}{2381}
+\newcommand{\wordcount}{2043}
 \newcommand{\supervisor}{Samraat Pawar}
 \date{1/21/2021}
 
@@ -32,6 +32,8 @@
 \begin{document}
 
 % uncomment, if add a cover page"\input{content/0A-coverpage}" and comment "\maketitle" as well as "\input{content/0B-disclaimer}"
+
+
 \input{titlepage}
 \linenumbers
 
@@ -52,14 +54,9 @@ Though the logistic model, which represents density-dependent growth\citep{eberh
     N_t= N_0 + (N_{max} - N_0) e^{-e^{r_{max} exp^{(1)}  {\frac{t_{lag}-t}{(N_{max}-N_0)log(10)}\\} +1}}
 \end{equation} we can see that, $N_0$, the lower asymptote, compresses the curve by lifting the lower asymptote without altering the upper asymptote: $N_{max}$.\citep{tjorve2017use}
 
-After fitting models, the visually comparison was made by plotting the data points with predicted lines over lapped on it, we can see relatively obscure difference of the fitting effect, so the model selection criteria needed in this project. Rather than the conventional null hypothesis testing approach, The $AICc$, $AIC$ and $BIC$\citep{johnson2004model} were adopted as model selection criteria. In which several competing hypotheses are simultaneously confronted and among model selection criteria, $AIC$ and $AICc$ are generally favoured because it has its foundation in Kullback–Leibler information theory \citep{anderson2004model}. 
-
-$AIC$ and $BIC$ were calculated by the inbuil function in R, $AICc$ was calculated by using the equation: \begin{equation}\label{eqn:AICc}
-    AICc = AIC + \frac{2K(K+1)}{n−K−1}
-\end{equation} where n represents the number of data points, K is the number of parameters. From the equation of calculating the the $AICc$, we can see that if there are more parameters in model equations, theoretically you will get higher AICc which means the worse performance of fitting effects. Even that, the Gompertz model which has one more parameter is still consistently favoured in this project.
+After fitting models, we can see relatively obscure difference of the fitting effect among three models through visually comparison, so the model selection criteria needed in this project. Rather than the conventional null hypothesis testing approach, the $AICc$, $AIC$ and $BIC$\citep{johnson2004model} were adopted as model selection criteria. In which several competing hypotheses are simultaneously confronted and among model selection criteria, $AIC$ and $AICc$ are generally favoured because it has its foundation in Kullback–Leibler information theory \citep{anderson2004model}. 
 
 
-  
   
 % Methods
 \section{Methods}
@@ -100,7 +97,7 @@ The whole process of the project is integrated into the single script and genera
 \subsection{Model Selection}
 The compararison criteria in this project are  $AICc$, $AIC$ and $BIC$ \citep{anderson2004model}. $AIC$ and $BIC$ were calculated by the inbuil function in R, $AICc$ was calculated by using the equation: \begin{equation}\label{eqn:AICc}
     AICc = AIC + \frac{2K(K+1)}{n−K−1}
-\end{equation} where n represents the number of data points, K is the number of parameters. 
+\end{equation} where n represents the number of data points, K is the number of parameters. From the equation of calculating the the $AICc$, we can see that if there are more parameters in model equations, theoretically you will get higher AICc which means the worse performance of fitting effects. Even that, the Gompertz model which has one more parameter is still consistently favoured in this project.
 
 
 % Results

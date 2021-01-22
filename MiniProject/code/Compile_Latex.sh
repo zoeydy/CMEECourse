@@ -21,3 +21,5 @@ rm *.snm
 rm *.toc
 rm *.bbl
 rm *.blg
+rm *.fdb_latexmk
+rm *.fls

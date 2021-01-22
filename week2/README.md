@@ -1,22 +1,27 @@
 # Week2-Biological Computing in Python
 
-## Brief description
-## Install python
-## Python varialble
-## Python operator
-## Python datastructure
-## Using loop and range funciton
-## Input and output
-## Runing Python script
-## Control flow tools
-## Comprehension
-## variable scope
-## Writing Python programe
-## Debuge
+## learning content
 
-align_seqs.py: save the best alignment along with the sequence's corresponding score. 
+Brief description
+Install python
+Python varialble
+Python operator
+Python datastructure
+Using loop and range funciton
+Input and output
+Runing Python script
+Control flow tools
+Comprehension
+variable scope
+Writing Python programe
+Debuge
+
 ## Language
 Python
+
+## using package
+sys, csv, doctest
+
 
 ## Author name and contact
 Zongyi Hu

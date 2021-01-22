@@ -7,7 +7,7 @@ includes them in JustOaksData.csv.
 """
 
 __appname__ = '[oaks_debugme.py]'
-__author__ = 'Joshua James Holley (joshua.holley20@imperial.ac.uk)'
+__author__ = 'Zongyi Hu (zh2720@ic.ac.uk)'
 __version__ = '0.0.1'
 
 ## IMPORTS ##
@@ -40,7 +40,7 @@ def is_an_oak(name):
 def main(argv): 
     """Main"""
     f = open('../data/TestOaksData.csv','r')
-    g = open('../data/JustOaksData.csv','w')
+    g = open('../results/JustOaksData.csv','w')
     taxa = csv.reader(f)
     csvwrite = csv.writer(g)
     # oaks = set() # Local variable 'oaks' is assigned to but never used

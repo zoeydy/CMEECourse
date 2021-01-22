@@ -29,7 +29,7 @@ def plot1(pops, t):
     p.ylabel('Population density')
     p.title('Consumer-Resource population dynamics')
     # save the figure as a pdf
-    f1.savefig('../result/LV3_model.pdf')
+    f1.savefig('../results/LV3_model.pdf')
 
 
 def plot2(pops): 
@@ -43,7 +43,7 @@ def plot2(pops):
     p.ylabel('Consumer density')
     p.title('Consumer-Resource population dynamics')
     # save the figure as a pdf
-    f2.savefig('../result/LV3_model1.pdf')
+    f2.savefig('../results/LV3_model1.pdf')
 
 def main(argv):
     """main function of the program"""

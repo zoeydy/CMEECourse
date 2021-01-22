@@ -4,7 +4,7 @@
                 and angle to its top, using the trigonometric formula  """
 
 __appname__ = 'get_TreeHeight.py'
-__author__ = 'Jane i.kotari20@imperial.co.uk'
+__author__ = 'Zongyi Hu (zh2720@ic.ac.uk)'
 __version__ = '0.0.1'
 __date__ = 'Jan 2021'
 
@@ -31,7 +31,7 @@ def main(argv):
         Trees['Tree.Height.m'] = TreeHeight(Trees['Angle.degrees'], Trees['Distance.m'])
         # Take only the filename without the relative paths and extensions and use it to name output file
         name = os.path.splitext(os.path.basename(sys.argv[1]))[0]
-        filename = "../Results/%s_treeheights_py.csv" % name
+        filename = "../results/%s_treeheights_py.csv" % name
         Trees.to_csv(filename, index=False)
     
     return 0

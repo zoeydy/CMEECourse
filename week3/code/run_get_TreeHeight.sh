@@ -5,7 +5,7 @@
 #Desc: Runs the get_TreeHeights.R  and the get_TreeHeight.py scripts with the file trees.csv from the Data directory as arguement
 #Date: Jan 2021
 
-Rscript get_TreeHeight.R ../Data/trees.csv 
-python3 get_TreeHeight.py ../Data/trees.csv
+Rscript get_TreeHeight.R ../data/trees.csv 
+python3 get_TreeHeight.py ../data/trees.csv
 
 #exit

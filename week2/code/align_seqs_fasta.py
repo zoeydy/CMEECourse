@@ -5,7 +5,7 @@ The input files should be 2 fasta files.
 The best alignment will be stored in ../result/seq_align_fasta.txt"""
 
 __appname__ = 'align_seqs_fasta'
-__author__ = 'Rui Zhang (rui.zhang20@imperial.ac.uk)'
+__author__ = 'Zongyi Hu (zh2720@ic.ac.uk)'
 __version__ = '0.0.1'
 
 ## import ##
@@ -80,7 +80,7 @@ def find_best_align(s1, s2, l1, l2):
         if z > my_best_score:
             my_best_align = "." * i + s2 # think about what this is doing!
             my_best_score = z 
-    outputfile = open("../result/seq_align_fasta.txt","a")  # store best alignment in a txt file
+    outputfile = open("../results/seq_align_fasta.txt","a")  # store best alignment in a txt file
     print(my_best_align, file = outputfile)
     print(s1, file = outputfile)
     print("Best score:", my_best_score, file = outputfile)
@@ -94,7 +94,7 @@ def main(argv):
         readsequence('../data/seq1.fasta', '../data/seq2.fasta')
     sortseq(seq1, seq2)
     find_best_align(s1, s2, l1, l2)
-    print('There is an output file as ../result/seq_align_fasta.txt')
+    print('There is an output file as ../results/seq_align_fasta.txt')
     return 0
 
 if __name__ == "__main__":

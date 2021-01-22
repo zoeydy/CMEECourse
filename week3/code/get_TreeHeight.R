@@ -52,4 +52,4 @@ name <- full_name[[1]][length(full_name[[1]])]
 just_name <- tools::file_path_sans_ext(name)
 
 ## Uses it to name the result file
-write.csv(Trees, paste("../Results/", just_name,"_treeheights.csv", sep = ""), row.names = FALSE)
+write.csv(Trees, paste("../results/", just_name,"_treeheights.csv", sep = ""), row.names = FALSE)

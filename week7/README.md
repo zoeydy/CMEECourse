@@ -13,8 +13,17 @@ computational biology in python
 scipy, numpy, subprocess, os
 
 ## Language
-Shell
+Shell python R
 
+## Using package
+blackbirds.py, regexs.py: re, sys
+LV1.py, LV2.py: scipy, scipy.integrate, matplotlib.pylab
+LV3.py, LV4.py, LV5.py: scipy, numpy, scipy.integrate, matplotlib.pylab, sys
+profileme.py, profileme2.py, subprocess_run.py: sys
+run_fmr_R.py, TestR.py: subprocess, sys
+run_LV.py: subprocess
+timeitme.py: timeit, time, sys
+using_os.py: subprocess, os, sys
 
 ## Project structure and Usage
 Hierarchical structure, for learning on Biological Computing.
