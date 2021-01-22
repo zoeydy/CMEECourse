@@ -54,7 +54,7 @@ for (i in 1:285){
                         "\nBICc_cubic:",bic,"\nBIC_logistic:",StartLog[i,"BIC"],"\nBIC_gompertz:",StartGom[i,"BIC"])
   }
   
-  FileName <- paste0("../results/ComparePlot/plot_", i,".png")
+  FileName <- paste0("../results/plot_", i,".png")
   png(file = FileName)
   p <- ggplot(data, aes(x=Time, y=logN)) +
     geom_point() +
@@ -118,3 +118,4 @@ ggplot(comp_df, aes(x = better_BIC)) +
   scale_x_discrete(labels=c("Cubic Model", "Gompertz Model","Logistic Model")) +
   geom_text(stat='count', aes(label=..count..), vjust=-1) 
 graphics.off()
+
