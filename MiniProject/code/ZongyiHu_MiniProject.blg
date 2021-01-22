@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ZongyiHu_MiniProject.aux
+The style file: agsm.bst
+Database file #1: BibMiniPro.bib
+You've used 19 entries,
+            2909 wiz_defined-function locations,
+            777 strings with 8586 characters,
+and the built_in function-call counts, 89727 in all, are:
+= -- 14673
+> -- 1180
+< -- 0
++ -- 7017
+- -- 357
+* -- 7920
+:= -- 17799
+add.period$ -- 19
+call.type$ -- 19
+change.case$ -- 266
+chr.to.int$ -- 19
+cite$ -- 19
+duplicate$ -- 309
+empty$ -- 685
+format.name$ -- 429
+if$ -- 16130
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 19
+newline$ -- 60
+num.names$ -- 200
+pop$ -- 50
+preamble$ -- 1
+purify$ -- 285
+quote$ -- 0
+skip$ -- 268
+stack$ -- 0
+substring$ -- 20910
+swap$ -- 62
+text.length$ -- 266
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 76
+warning$ -- 0
+while$ -- 434
+width$ -- 0
+write$ -- 250

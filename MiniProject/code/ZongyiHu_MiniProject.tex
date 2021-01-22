@@ -1,0 +1,151 @@
+
+
+
+\documentclass[11pt, a4paper]{article}
+
+
+
+% Loads required packages from the separate file 
+\usepackage{import}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{lineno}
+\linespread{1.25}
+
+%---------------------------------------------------------------------------------
+%General information
+%---------------------------------------------------------------------------------
+% \title{The success of Gompertz models in fitting population growth data} 
+% \author{Zongyi Hu}
+% \date{\small \today}
+\newcommand{\reporttitle}{The success of Gompertz models in fitting population growth data}
+\newcommand{\reportauthor}{Zongyi Hu}
+\newcommand{\wordcount}{2381}
+\newcommand{\supervisor}{Samraat Pawar}
+\date{1/21/2021}
+
+%---------------------------------------------------------------------------------
+%	Begin my document
+%---------------------------------------------------------------------------------
+\DeclareUnicodeCharacter{2212}{-}
+\graphicspath{{../result}}
+\begin{document}
+
+% uncomment, if add a cover page"\input{content/0A-coverpage}" and comment "\maketitle" as well as "\input{content/0B-disclaimer}"
+\input{titlepage}
+\linenumbers
+
+
+\begin{abstract}
+Assessing the relationship between population size and time is of the essence in ecology and evolution filed. In this project, I attempt to study this relationship by operating model fitting, the powerful and versatile and widely used technique. In this project, three widely used models: polynomial(cubic) model, logistic model and Gompertz model were chosen to be fitted using minpack.lm package R language which is based on the Levenberg-Marquardt algorithm. All three models are fitted successfully without any serious problem on several data sets obtained from published papers studying population growth of bacteria and phytoplankton under various experimental conditions in this project. The goodness-of-fit of each model were compared by making inference through comparing the $AICc$, $AIC$ and $BIC$ values. After comparison, the Gompertz model gave the overall best fit for the data, generally because of its ability to capture the lag phase of the population growth. The cubic and logistic model gave similar performance.
+\end{abstract}
+
+% Introduction
+\section{Introduction}
+The objective of this project is to fitted Three models and quantitatively comparing the criterion of fitting effect get the better model. As population density arranges along the time playing an essential role in ecology functions and evolutionary processes, assessing the population kinetic is worthy. Model fitting, as a powerful and versatile approach applied in a wild variety of research analysis, gives us a way of addressing this analyses. By fitting models, estimating the relationship between variables, we can make further inference to explore the mechanism behind it. 
+
+Base on theory and subject knowledge, the cubic model, logistic model and Gompertz model\citep{zwietering1990modeling} are chosen to be fitted. For using the 4-parameter Gompertz model, all the denpendent variable is log-transformed\citep{tjorve2017use}. The models split the curves of bacterial population growth into three phases: the lag phase at the beginning and the stationary phase at the end, those two phases have the specific growth rate of zero, and the exponential phase where the bacterial population increases nearly linearly over time, which corresponded to the parameter: $r_max$ in model  equations. In both logistic and Gompertz models, the $r_max$ is calculated by using the slope of the linear model fitted on the whole data set if the size of the data set is less than 5, or else, the data points chosen for fitting the linear model in the logistic model is the points in the middle 60\% time, and for Gompertz is the points within 20\% - 75\% population size. 
+
+Though the logistic model, which represents density-dependent growth\citep{eberhardt2008analyzing}, is good enough of representing the self density restriction, which in equation: \begin{equation} \label{eqn:Logistci}
+    \frac{dN_t}{dt}= rN_t(1-\frac{N_t}{K})
+\end{equation} is restricted by the part $1-N_t/K$. In reality, however, there is one more phenomenon noticeable is that the population does not growth promptly after getting into the new environment. So, to capture the lag phase, the more complicated growth model: Gompertz model was introduced in this project which is asymmetrical compared with the logistic model. The Gompertz model has one more parameter $t_{lag}$ to represent the last time point before the population exponentially growth and from the Gompertz equation \begin{equation} \label{eqn:GompEqn}
+    N_t= N_0 + (N_{max} - N_0) e^{-e^{r_{max} exp^{(1)}  {\frac{t_{lag}-t}{(N_{max}-N_0)log(10)}\\} +1}}
+\end{equation} we can see that, $N_0$, the lower asymptote, compresses the curve by lifting the lower asymptote without altering the upper asymptote: $N_{max}$.\citep{tjorve2017use}
+
+After fitting models, the visually comparison was made by plotting the data points with predicted lines over lapped on it, we can see relatively obscure difference of the fitting effect, so the model selection criteria needed in this project. Rather than the conventional null hypothesis testing approach, The $AICc$, $AIC$ and $BIC$\citep{johnson2004model} were adopted as model selection criteria. In which several competing hypotheses are simultaneously confronted and among model selection criteria, $AIC$ and $AICc$ are generally favoured because it has its foundation in Kullback–Leibler information theory \citep{anderson2004model}. 
+
+$AIC$ and $BIC$ were calculated by the inbuil function in R, $AICc$ was calculated by using the equation: \begin{equation}\label{eqn:AICc}
+    AICc = AIC + \frac{2K(K+1)}{n−K−1}
+\end{equation} where n represents the number of data points, K is the number of parameters. From the equation of calculating the the $AICc$, we can see that if there are more parameters in model equations, theoretically you will get higher AICc which means the worse performance of fitting effects. Even that, the Gompertz model which has one more parameter is still consistently favoured in this project.
+
+
+  
+  
+% Methods
+\section{Methods}
+
+\subsection{Computing Tools}
+The fitting scripts are written in R, because R is wildly used in academic and has an extensive library of tools for data and database manipulation and wrangling resource, like minpack package used in this report. And R has many good quality of data visualization which makes it suitable for this project. Besides, R is open source and is not severely restricted to operating systems, which give another reason to choose R as analysis tool for this project. Python is used to build the whole workflow and generate the latex report.
+
+
+\subsection{Data Management}
+The data analysed in this project is collected from published works\citep{bae2014growth,bernhardt2018metabolic,galarz2016predicting,gill1991growth,phillips1987relation,roth1962continuity,silva2018modelling,sivonen1990effects,stannard1985temperature,zwietering1994modeling}, study microbes and phytoplankton, contain populational growth data. 
+
+What concerns in this project are time and population size variables, so the ID, contains the species, experiment conditions and citations, was inserted in the data processing, and the data points have negative population size which does not have any biological meaning were deleted. 
+
+Then the population size in each data set was log-transformed for better analysing when the population growth is still in the lag phase with too small size and comparing the Gompertz model, which models the log-transformed dependent variables, with other two models when calculating the $AICc$, $AIC$ and $BIC$ value of each model in the identical standard.
+
+So far, the 285 data sets were ready to process the model fitting.
+
+
+\subsection{Models and Equations}
+\subsubsection{Models}
+The linear cubic model, logistic model and Gompertz model\citep{zwietering1990modeling} are chosen in this project to evaluate the data set respectively. The models split the curves of bacterial population growth into three phases: the lag phase at the beginning and the stationary phase at the end, those two phases have the specific growth rate of zero, and the exponential phase where the bacterial population increases nearly linearly over time, which corresponded to the parameter: $r_{max}$ in model equations. Though the logistic model, which represents density-dependent growth\citep{eberhardt2008analyzing}, is good enough of representing the self density restriction, in reality, however, there is one more phenomenon noticeable is that the population does not growth promptly after getting into the new environment. So, to capture the lag phase, the more complicated growth model: Gompertz model was introduced in this project which is asymmetrical compared with the logistic model and has one more parameter $t_{lag}$ to represent the last time point before the population exponentially growth. The other two parameters used in this model fitting is $N_0$ and $N_{max}$, respectively represents the logarithm of minimum and maximum population size in data.
+
+\subsubsection{Parameter Estimation}
+All of the parameters in cubic equation: Equation\ref{Eqn:Cubic} \begin{equation} \label{Eqn:Cubic}
+    N_t = a + bt + ct^2 + dt^3
+\end{equation} a,b,c,d do not have biological meaning, and for it is a linear model, we do not have to estimate the starting value. For logistic and Gompertz model, I get the preliminary starting value first and sampled those 1000 times with 0.2 factor to fit repeatedly in each data set.
+
+\subsection{Data Standardization (data.R)}
+ I processed the data standardization by deleting the population size of negative numbers which do not have any biological meaning, and log-transformed the for better analysing when the population growth is still in the lag phase with too small size and comparing the Gompertz model, which models the log-transformed variables, with other two models when calculating the $AICc$, $AIC$ and $BIC$ value of each model in the identical standard.
+
+\subsection{models fitting on experimental data sets (Gompertz.R and Logistic.R)}
+
+I defined functions to process the model fitting, comparing the fitting effect, plotting and generating report. In which, several packages like ggplot2, and minpack are used. In processing the non-linear models it is possible to fail when fitting with too far-reach starting values, so within the function, the \verb|tryCatch()| function is used to return the error and avoid stop the whole process. The visualization of the fitting is preseneted by plotting the actual data points overlap with predicted lines to visualize the effects of the fitting, which will be shown in the result section.
+
+\subsection{Integrate the Whole Project(\texttt{run\_MiniProject.py})}
+The whole process of the project is integrated into the single script and generates the submission PDF file.
+
+\subsection{Model Selection}
+The compararison criteria in this project are  $AICc$, $AIC$ and $BIC$ \citep{anderson2004model}. $AIC$ and $BIC$ were calculated by the inbuil function in R, $AICc$ was calculated by using the equation: \begin{equation}\label{eqn:AICc}
+    AICc = AIC + \frac{2K(K+1)}{n−K−1}
+\end{equation} where n represents the number of data points, K is the number of parameters. 
+
+
+% Results
+\section{Results}
+Generally, all the models were fitted without major problems and all the data sets were fitted successfully by cubic and logistic models, 277 by Gompertz model. 
+
+The typical fitted model visualizations look like (Figure\ref{res_visual}). From the plot we can see all three models fitted well, the big difference between the Gompertz model and the other 2 models are the ability of catch the lag phrase. No big difference from visualization comparison, so that more precise inference needs to be made by comparing the quantitative results, which in this project are comparison criteria: $AICc$, $AIC$ and $BIC$.
+
+\begin{figure}\centering
+  \includegraphics[width=0.43\textwidth]{../results/ComparePlot/plot_68.png}
+  \includegraphics[width=0.43\textwidth]{../results/ComparePlot/plot_148.png}
+  \caption{\label{res_visual}The general fitting effects visualization: two examples of fitting effects of cubic model, logistic model and Gompertz model on experimental data set. 
+  left graphic is the result of 68th data set, which experiment species is Anthrobacter simplex grown in TGE agar medium, right is 148th with Lactobaciulus plantarum grown in MRS medium.}
+  \end{figure}
+ 
+By comparing the $AICc$, $AIC$ and $BIC$ value of each model in all fitted 277 data sets, the Gompertz model tends to have lower criterion values with winning frequencies: 144, 203 and 199, which shows that it is constantly better than cubic and logistic model with winning frequencies 19, 37, 36 and 114, 37, 42 respectively. Also, from that we can see that the difference between cubic and logistic model are small. By all means, the Gompertz model gave the best fit to the data (Figure\ref{res_freq}). 
+
+\begin{figure}\centering
+  \includegraphics[width=0.29\textwidth]{../results/Model_comparasion_AICc.png}
+  \includegraphics[width=0.29\textwidth]{../results/Model_comparasion_AIC.png}
+  \includegraphics[width=0.29\textwidth]{../results/Model_comparasion_BIC.png}
+  \caption{\label{res_freq}The winning frequency of the models: from left to right, the figures show the comparison on $AICc$, $AIC$ and $BIC$ values between 3 models.}
+  \end{figure}
+
+
+%Discussion
+\section{Discussion}
+
+Is Gompertz model better than the cubic and logistic model? In this project, it is confident to say so. Theoretically, the model just has less parameters should be considered first using, becuase it has more degrees of freedom and more stable since the parameters are less correlated, but the comparision of the $AICc$, $AIC$ and $BIC$ values indicated that even the Gompertz model has one more parameter than logistic model, it still outperformed. Through the result of $AICc$, because in this project, most data sets are small, so the calculation of the $AICc$ besides $AIC$ is necessary. It is calculated base on $AIC$ with the equation\ref{eqn:AICc}, which gives higher results with more parameters, even that is the case, the Gompertz model still performs better. The same situation happened when checking $BIC$, which favor simpler model and have correct sample size bias. Although the $AIC$ is supposed to be used in large data sets, this project still calculated it as inference, the Gompertz model still wins. Gompertz model consistently preformed the best among the three models fitting on the data sets. So that, in this project, we can get the conclusion that the Gompertz model is the preferred model among the 3 cases.
+
+The population usage of Gompertz model may because of its transformation of the population size from normal to logarithm which makes its growth curve more linear in potential growth phase\citep{buchanan1997simple}, also, the logarithm of the population size makes it more intuitive of biological meaning.
+
+Although the linear cubic model in this project did the worst performance than the other two models, it can be used effectively in the absence of the stationary data\citep{buchanan1997simple}. Its simplicity and flexibility give it the advantage to be used as a quick way of representing the good enough curve of the population growth without much effort. 
+
+The logistic model's relative failure, because of its disadvantage of catching the lag phase compared with Gompertz model, while its relative victory compared with cubic model, shows its ability of self density restriction\citep{eberhardt2008analyzing}. Moreover the logistic model has one fewer parameter than do the cubic and Gompertz model and can be fitted to most of the data sets used in this project just without the ability to catch where growth had more than one phase but can be used to predict general growth\citep{balmer2012evolution}. 
+
+As known that the biotic and abiotic factors \citep{loreau1998biodiversity} both influence the kinetic of the population size, which makes it a complex system to be fitted with different circumstance. In this project, the data is all collected from bacteria and phytoplankton experiments we can fit and get the result that among three models: cubic, logistic and Gompertz, the Gompertz model stands out as the best model, while we can not infer this conclusion to other conditions. Generally, the mechanistic model performs better than only experimental model, but the biological meaning of the parameters in models is also needed to be concerned. There are already scholars trying to address this problem, Braillard, Pierre-Alain\citep{braillard2010systems} mentioned that, design explanations should be considered as perfectly compatible with mechanistic explanation.
+
+Further more, in equation\ref{eqn:GompEqn}, it is obvious that fitting the Gompertz model is easier of meeting problems such as parameter identifiability problem\ref{meshkat2014finding}. Further analysis about the effective of this parameter needs to be operated to prove the worth of the effort of it. Then under different circumstances more appropriate and economic model can be chosen to use.
+
+
+ \bibliographystyle{agsm}
+  \bibliography{BibMiniPro}
+
+
+%---------------------------------------------------------------------------------
+
+\end{document}

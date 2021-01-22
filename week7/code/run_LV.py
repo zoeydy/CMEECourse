@@ -1,74 +1,64 @@
-"""profile LV1 and LV2"""
+""" Runs the LV1.py, LV2.py, LV3.py, LV4.py and LV5.py with the appropriate parameters using 
+                subprocess and checks for speed bottlencks using CProfile. """
 
 
+# Running the scripts with the appropriate parameters
 
-import sys
+import subprocess
+
+p = subprocess.Popen(["python3", "LV1.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)  
+stdout, stderr = p.communicate()
+print(stdout.decode())
+
+q = subprocess.Popen(["python3", "LV2.py", "1", "0.5", "1.5", "0.75"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)  
+stdout, stderr = q.communicate()
+print(stdout.decode())
+
+r = subprocess.Popen(["python3", "LV3.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)  
+stdout, stderr = r.communicate()
+print(stdout.decode())
+
+s = subprocess.Popen(["python3", "LV4.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)  
+stdout, stderr = s.communicate()
+print(stdout.decode())
+
+t = subprocess.Popen(["python3", "LV5.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)  
+stdout, stderr = t.communicate()
+print(stdout.decode())
+
+# Profiling the scripts
 import cProfile
-import pstats
-from io import StringIO
 
-import LV1 # if I want to import a function from the other directory, this way does't work, what should I do if I want to do that?
-import LV2
+u = subprocess.Popen(["python3", "-m", "cProfile", "LV1.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+stdout, stderr = u.communicate()
+print(stdout.decode())
 
+v = subprocess.Popen(["python3", "-m", "cProfile", "LV2.py", "1", "0.5", "1.5", "0.75"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+stdout, stderr = v.communicate()
+print(stdout.decode())
 
+w = subprocess.Popen(["python3", "-m", "cProfile", "LV3.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+stdout, stderr = w.communicate()
+print(stdout.decode())
 
-"""define main function"""
-def main():
-    # Create profiler (Just need to profile once)
-    pr = cProfile.Profile()
+x = subprocess.Popen(["python3", "-m", "cProfile", "LV4.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+stdout, stderr = x.communicate()
+print(stdout.decode())
 
-    ## LV1
-
-    # For each LV script...
-    # Enable profiler
-    pr.enable()
-    # Run the script
-    LV1.main([])
-    
-    # Disable profiler
-    pr.disable()
-
-    # Make a string buffer to put stuff in
-    s = StringIO()
-
-    # Extract the profile statistics (and put into s)
-    ps = pstats.Stats(pr, stream=s)
-    
-    # For print_stats, the number in brackets is the proportion of results to return
-    # (from 0.0 to 1.0, so 0.1 would be 10% of the results) 
-    ps.print_stats(3).sort_stats('time')
-
-    # Get the report and print to terminal
-    print("================= Profiling LV1 =================")
-    print(s.getvalue())
+z = subprocess.Popen(["python3", "-m", "cProfile", "LV5.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+stdout, stderr = z.communicate()
+print(stdout.decode())
 
 
+# Alternative way to CProfile, using the magic command %run -p as it is
 
-    ## LV2
+#from IPython.terminal.embed import InteractiveShellEmbed
 
-    pr.enable()
-    LV2.main([0, 1., 0.1, 1.5, 0.75])
-    pr.disable()
-    s = StringIO()
-    ps = pstats.Stats(pr, stream=s)
-    ps.print_stats(3).sort_stats('time')
-    print("\n ================= Profiling LV2 =================")
-    print(s.getvalue())
-
-
-
-
-if __name__ == '__main__':
-    main()
-
-
-
-# import subprocess
-
-# print("Running LV1...")
-# subprocess.os.system("ipython3 -m cProfile LV1.py")
-# print("LV1 Complete!\n\n")
-
-# print("Running LV2...")
-# subprocess.os.system("ipython3 -m cProfile LV2.py 1. 0.1 1.5 0.75 ")
-# print("LV2 Complete!")
+#ipshell = InteractiveShellEmbed()
+#ipshell.dummy_mode = True
+#ipshell.magic("%run -p LV1.py")
+#ipshell.magic("%run -p LV2.py 1 0.1 0.5 0.75 80")
+#ipshell.magic("%run -p LV3.py")
+#ipshell.magic("%run -p LV4.py")
+#ipshell.magic("%run -p LV5.py")
+#ipshell()

@@ -14,6 +14,7 @@
 ## Writing Python programe
 ## Debuge
 
+align_seqs.py: save the best alignment along with the sequence's corresponding score. 
 ## Language
 Python
 
