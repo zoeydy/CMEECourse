@@ -1,0 +1,22 @@
+#Count how many lines there are in each file
+wc -l *.fasta 
+# EXPLANATION:
+# wc prints newline, word, and byte counts for a file
+# -l flag restricts the counting to just newlines
+
+# Print everything starting from the second line for the E. coli genome
+tail -n+2 407228326.fasta
+# EXPLANATION:
+# 
+
+
+# Count the sequence length of this genome
+tail -n+2 407228326.fasta | tr -d "\n" | wc -c
+
+# Count the matches of a particular sequence, ``ATGC'' in the genome of E. coli 
+tail -n+2 E.coli.fasta | tr -d "\n" | grep -o "ATGC" | wc -l
+
+# Compute the AT/GC ratio
+echo $(tail -n+2 E.coli.fasta | tr -d "\n" | grep -o [A,T] | wc -l) / $(tail -n+2 E.coli.fasta | tr -d "\n" | grep -o [G,C] | wc -l) | bc -l
+# EXPLANATION:
+# bc is the UNIX "bench calculator"
