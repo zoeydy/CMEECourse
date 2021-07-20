@@ -1,4 +1,3 @@
-
 rm(list = ls())
 
 # require(dplyr)
@@ -22,15 +21,15 @@ Data$logN <- log(Data$PopBio)
 #   id <- unique(Data$ID)[i]
 #   data <- subset(Data, Data$ID == id)
 
-  # plot by each ID
-  # FileName <- paste('../results/RawDataPlot/plot_ID_',i)
-  # pdf(file = FileName)
-  # print(
-  #   ggplot(data, aes(x = Time, y = logN)) +
-  #     geom_point(size = 3) +
-  #     labs(x = "Time (Hours)", y = "logarithum of Population size")
-  # )
-  # graphics.off()
+# plot by each ID
+# FileName <- paste('../results/RawDataPlot/plot_ID_',i)
+# pdf(file = FileName)
+# print(
+#   ggplot(data, aes(x = Time, y = logN)) +
+#     geom_point(size = 3) +
+#     labs(x = "Time (Hours)", y = "logarithum of Population size")
+# )
+# graphics.off()
 #}
 
 
