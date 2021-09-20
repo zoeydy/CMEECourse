@@ -1,0 +1,5 @@
+Loading required package: ggplot2
+Warning message:
+In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘ggplot2’
+There were 50 or more warnings (use warnings() to see the first 50)
